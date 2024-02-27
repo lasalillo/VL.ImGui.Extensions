@@ -38,7 +38,9 @@
                 <Pin Id="PxeJgxGitcbNDfHyTg1QYZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="EH6Ths2MhWqMtbpsQRu4ve" Name="Context" Kind="InputPin" />
                 <Pin Id="DN05qu1pk3hPzD1IJlZRVX" Name="Channel" Kind="InputPin" />
+                <Pin Id="NAot7Jtl0TRO02rqjSMndh" Name="Parent Path" Kind="InputPin" IsHidden="true" />
                 <Pin Id="SBDx2c6jYDiOtD7L2QYEsA" Name="Context" Kind="OutputPin" />
+                <Pin Id="FzKoD9mwCqVMBTRw1rktGw" Name="Binders" Kind="OutputPin" IsHidden="true" />
               </Node>
             </Patch>
           </Node>
@@ -47,7 +49,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="MAIOTK39FVSP1q4537Lipz" Name="Bounds" Kind="InputPin" DefaultValue="112, 26, 456, 1340" IsHidden="true" />
+            <Pin Id="MAIOTK39FVSP1q4537Lipz" Name="Bounds" Kind="InputPin" DefaultValue="-4, 2, 486, 1370" IsHidden="true" />
             <Pin Id="TiW58tnuahHLha54xbsMox" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="DAEtcpijzY8O3Q8XVj9BIN" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="J4WjFMyXbNMOuFdpYs1kTi" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -527,7 +529,7 @@
         <Link Id="DS5sL982bTKM1FzekCJ0EN" Ids="JGElbMuzunOP6zHGGyVwQT,FYG4DnYTdtlNL3xuLjI6L0" />
         <Link Id="FKDpvV83x9cOPJBzr6a3au" Ids="HTCT37TbRX2NjnEb8f1MmX,QewRKfeaTPjOqBiggyVwTt" />
         <Link Id="PNNF60H4pBuMbCD0uhliOK" Ids="UOmUSwrJBSFO9u7ppwWGIE,DYCsSDmRzfILygWtiTt9hs" />
-        <Link Id="Dd9rWnOEwCkNYlYI6Sk0rh" Ids="CugRfekonVRNkTcVb7EJlZ,DN05qu1pk3hPzD1IJlZRVX" />
+        <Link Id="NxgLVKlRkOEMReYtaz6cZG" Ids="CugRfekonVRNkTcVb7EJlZ,DN05qu1pk3hPzD1IJlZRVX" />
       </Patch>
     </Node>
   </Patch>
