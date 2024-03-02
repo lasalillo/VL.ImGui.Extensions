@@ -47,7 +47,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="MAIOTK39FVSP1q4537Lipz" Name="Bounds" Kind="InputPin" DefaultValue="-2, 4, 556, 712" IsHidden="true" />
+            <Pin Id="MAIOTK39FVSP1q4537Lipz" Name="Bounds" Kind="InputPin" DefaultValue="-2, 4, 556, 976" IsHidden="true" />
             <Pin Id="TiW58tnuahHLha54xbsMox" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="DAEtcpijzY8O3Q8XVj9BIN" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="J4WjFMyXbNMOuFdpYs1kTi" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -247,13 +247,13 @@
                 <Fragment Id="QVFYDd0blAwLj6BffWiKyt" Patch="BpwL9UjCEwxOaAGasObCE9" Enabled="true" />
                 <Fragment Id="FZ5ft1rWqnIQa9Hs0uXL4k" Patch="UZBVyF2B1DELHJ4lZASrLB" />
               </ProcessDefinition>
-              <Slot Id="AI7YKHH2wlwMAHVwThXiKz" Name="CC">
+              <Slot Id="AI7YKHH2wlwMAHVwThXiKz" Name="CC hhh">
                 <p:TypeAnnotation p:Type="TypeReference">
                   <Choice Kind="TypeFlag" Name="RGBA" />
                 </p:TypeAnnotation>
               </Slot>
               <Patch Id="UZBVyF2B1DELHJ4lZASrLB" Name="Split">
-                <Pin Id="NQIQHXHG9JAQc2mqcoIpeh" Name="CC" Kind="OutputPin" />
+                <Pin Id="NQIQHXHG9JAQc2mqcoIpeh" Name="CC hhh" Kind="OutputPin" />
                 <Pin Id="OjbGQh29lq3QPtDYAOj692" Name="DD" Kind="OutputPin" />
                 <Pin Id="VSDm6w6X65iOceailwi3aX" Name="MyRecord2" Kind="OutputPin" />
               </Patch>
@@ -483,7 +483,7 @@
             </p:NodeReference>
             <Pin Id="GZcNcSfpQhpLUxG6aF89Dn" Name="Input" Kind="StateInputPin" />
             <Pin Id="RfyVF2iGUQlL9HIrS61y0o" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="OH3fSdVfap2PSe290OQgCX" Name="CC" Kind="OutputPin" />
+            <Pin Id="OH3fSdVfap2PSe290OQgCX" Name="CC hhh" Kind="OutputPin" />
             <Pin Id="Cakxo62i9wkO1JUgRkvQTa" Name="DD" Kind="OutputPin" />
             <Pin Id="CafOpBuCStvPv0IZ9sc79n" Name="MyRecord2" Kind="OutputPin" />
           </Node>
