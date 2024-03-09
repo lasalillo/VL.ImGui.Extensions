@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<MyProject>
+  <Subrecord1 CC_hhh="0.59130436, 0.35478264, 0.35478264, 1" DD="126.74" />
+  <Subrecord2 OOOO="1.77" UUUU="23" />
+  <Subrecord3 FFFF="3, 4.67, 1, 5" GGGG="hi" />
+</MyProject>
