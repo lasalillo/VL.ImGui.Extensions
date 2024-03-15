@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="VvvkUnU6vEHNVEHejt4EfG" LanguageVersion="2024.6.0-0244-ga4b76baedd" Version="0.128">
-  <NugetDependency Id="NKaLnU4zyDbOhYz3mHsNKd" Location="VL.CoreLib" Version="2024.6.0-0244-ga4b76baedd" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="VvvkUnU6vEHNVEHejt4EfG" LanguageVersion="2024.6.0-0261-g38f7059b02" Version="0.128">
+  <NugetDependency Id="NKaLnU4zyDbOhYz3mHsNKd" Location="VL.CoreLib" Version="2024.6.0-0261-g38f7059b02" />
   <Patch Id="FenpMVMScHPPX5JxsAtrI5">
     <Canvas Id="FQRbQ5Bnd0HNS5GPlXkqMZ" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
 
-    ************************ MODEL_EDITOR ************************
+    ************************ MY_MODEL_EDITOR ************************
 
 -->
-      <Node Name="MODEL_EDITOR" Bounds="259,311" Id="UdugHw0aZHEPrxjyLZaoKj">
+      <Node Name="MY_MODEL_EDITOR" Bounds="259,311" Id="UdugHw0aZHEPrxjyLZaoKj">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -65,7 +65,7 @@
                     <Node Bounds="549,506,145,19" Id="Ck1OBYgTqg6Lrq4Jnfhvoo">
                       <p:NodeReference LastCategoryFullName="ImGui.Extensions.UI" LastDependency="VL.ImGui.Extensions.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="ProcessAppFlag" Name="FileEditor" />
+                        <Choice Kind="ProcessAppFlag" Name="FileMenu" />
                       </p:NodeReference>
                       <Pin Id="AjKCuurlbCcNHJb2eY9qgK" Name="Node Context" Kind="InputPin" IsHidden="true" />
                       <Pin Id="AIdQ08Hu8onNc5h1Kz0jLR" Name="Context" Kind="InputPin" />
@@ -401,10 +401,10 @@
       </Node>
       <!--
 
-    ************************ PROJECT_EDITOR ************************
+    ************************ MY_PROJECT_EDITOR ************************
 
 -->
-      <Node Name="PROJECT_EDITOR" Bounds="259,271" Id="HfSUXH9HEX0L8nmkqDh9mP">
+      <Node Name="MY_PROJECT_EDITOR" Bounds="259,271" Id="HfSUXH9HEX0L8nmkqDh9mP">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -433,7 +433,7 @@
             <Node Bounds="201,356,165,19" Id="HecjvbY2OJ4Pi6inUtz16T">
               <p:NodeReference LastCategoryFullName="Main" LastDependency="Example ProjectEditor.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="MODEL_EDITOR" />
+                <Choice Kind="ProcessAppFlag" Name="MY_MODEL_EDITOR" />
               </p:NodeReference>
               <Pin Id="Nbvz4rVHS9HPBS3AUUxbQq" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="RiUINrB2GUdMNmDKCe0tVk" Name="Model" Kind="InputPin" />
@@ -491,32 +491,20 @@
         </p:NodeReference>
         <Patch Id="KXG4JXRvKZhPxfOzhWbIYW">
           <Canvas Id="M1JdSw9o0MEMgB5vlaTkx7" CanvasType="Group">
-            <Node Bounds="199,304,94,19" Id="KPeUhzfJA4vM236bRgDvVj">
+            <Node Bounds="199,298,112,19" Id="KPeUhzfJA4vM236bRgDvVj">
               <p:NodeReference LastCategoryFullName="Main" LastDependency="Example ProjectEditor.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="PROJECT_EDITOR" />
+                <Choice Kind="ProcessAppFlag" Name="MY_PROJECT_EDITOR" />
               </p:NodeReference>
               <Pin Id="NkBw5YVkMTLOYhMKQ37rtB" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="BWC8WVfTDQgLWECqSCPOHf" Name="Model" Kind="InputPin" />
             </Node>
-            <Node Bounds="199,245,53,19" Id="QoJW4ZLD6ciLL3Q1EcT70r">
-              <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="Channel" />
-              </p:NodeReference>
-              <Pin Id="Molb6MAIbCiO7gQleOumLJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="DRi2JJWPb9KOWtozTngnnl" Name="Initial Value" Kind="InputPin" IsHidden="true" />
-              <Pin Id="PWMhXzgCYt1PHR0BkJY5Dq" Name="Value" Kind="InputPin" />
-              <Pin Id="QzRg8DfrPwzN2hQAv5lis8" Name="Output" Kind="OutputPin" />
-              <Pin Id="R0PUsEAtt3nQRFZNF6WNuD" Name="Value" Kind="OutputPin" />
-            </Node>
-            <Pad Id="CJDENs4xZJFNAjklZKj2j0" SlotId="JHbhewOPdJ4QZO1q3YOsV6" Bounds="201,284" />
             <!--
 
     ************************ MyProject ************************
 
 -->
-            <Node Name="MyProject" Bounds="696,255" Id="JeZcx56Bz82LCXqlGxPwTl">
+            <Node Name="MyProject" Bounds="682,268" Id="JeZcx56Bz82LCXqlGxPwTl">
               <p:NodeReference>
                 <Choice Kind="RecordDefinition" />
               </p:NodeReference>
@@ -597,7 +585,7 @@
     ************************ Subrecord1 ************************
 
 -->
-            <Node Name="Subrecord1" Bounds="696,295" Id="GjMOQ1nki6KO2Q7TgWcKGm">
+            <Node Name="Subrecord1" Bounds="682,308" Id="GjMOQ1nki6KO2Q7TgWcKGm">
               <p:NodeReference>
                 <Choice Kind="RecordDefinition" />
               </p:NodeReference>
@@ -650,7 +638,7 @@
     ************************ Subrecord2 ************************
 
 -->
-            <Node Name="Subrecord2" Bounds="696,335" Id="FKffi4fgrTQQJcrx4DPXtm">
+            <Node Name="Subrecord2" Bounds="682,348" Id="FKffi4fgrTQQJcrx4DPXtm">
               <p:NodeReference>
                 <Choice Kind="RecordDefinition" />
               </p:NodeReference>
@@ -703,7 +691,7 @@
     ************************ Subrecord3 ************************
 
 -->
-            <Node Name="Subrecord3" Bounds="696,375" Id="GPF76QeRWfPQGW4WA2YVay">
+            <Node Name="Subrecord3" Bounds="682,388" Id="GPF76QeRWfPQGW4WA2YVay">
               <p:NodeReference>
                 <Choice Kind="RecordDefinition" />
               </p:NodeReference>
@@ -760,8 +748,7 @@
               <Pin Id="EvQ2FICNosNPSAHfvIuSr5" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="FstTGdCsQUTMwAk7wrgzDw" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="KGIzd6gfHbhQSYvkpMCeCd" SlotId="JHbhewOPdJ4QZO1q3YOsV6" Bounds="414,286" />
-            <Pad Id="U6geCri0yQEMashJE3pvTi" Bounds="381,309,157,53" ShowValueBox="true" isIOBox="true" Value="Here the App Runtime, where the properties are consumed">
+            <Pad Id="U6geCri0yQEMashJE3pvTi" Bounds="387,266,157,53" ShowValueBox="true" isIOBox="true" Value="Here the App Runtime, where the properties are consumed">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -770,23 +757,36 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Overlay Id="TEzNavYVLEkN8UFICr8UCM" Name="" Bounds="354,240,220,154">
+            <Overlay Id="TEzNavYVLEkN8UFICr8UCM" Name="" Bounds="360,197,220,154">
               <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
             </Overlay>
-            <Overlay Id="R0j31nyoCB6N6UnJ9gdi53" Name="Model definition" Bounds="659,181,168,214">
+            <Overlay Id="R0j31nyoCB6N6UnJ9gdi53" Name="Model definition" Bounds="645,194,168,214">
               <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
             </Overlay>
+            <Pad Id="Po5LkTslxDPNsV6exNt61K" SlotId="UXyrNBJfdrzQbOEkFWGi2L" Bounds="201,280" />
+            <Node Bounds="199,243,53,19" Id="Qpb1gEWJVDfPyeCgseBkFe">
+              <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="Channel" />
+              </p:NodeReference>
+              <Pin Id="RMR6qZw1MehLd3Bsc0LjDL" Name="Node Context" Kind="InputPin" IsHidden="true" />
+              <Pin Id="JJiUF60gefVMCrRgqa0L5O" Name="Initial Value" Kind="InputPin" IsHidden="true" />
+              <Pin Id="ENxKX3zBnsCQQHR0TTQ5fG" Name="Value" Kind="InputPin" />
+              <Pin Id="BvNrbhYOIMOONFl1wdUHGz" Name="Output" Kind="OutputPin" />
+              <Pin Id="C1CRP9CSSshLzb091huP52" Name="Value" Kind="OutputPin" />
+            </Node>
+            <Pad Id="J8kwza5XvmDMaDR5lZRbB7" SlotId="UXyrNBJfdrzQbOEkFWGi2L" Bounds="441,239" />
           </Canvas>
-          <Patch Id="U4SPIN0dKk1PN4fUYVzQnV" Name="Create" ParticipatingElements="PRSP2LeeRe3PAS6STXDvRZ,ItaquyhcXKMMXdRvPDAfEh" />
+          <Patch Id="U4SPIN0dKk1PN4fUYVzQnV" Name="Create" ParticipatingElements="Ueh70itPlInQaf16jDGhCk,UK34sGwthtIQNIdAiLtRBM" />
           <Patch Id="UKyEvhspFp0QaQCIUZtgVl" Name="Update" />
           <ProcessDefinition Id="E6UoC6J67aNLBHsWzioAa3">
             <Fragment Id="JL608kMz5DEMPwW2GVppO5" Patch="U4SPIN0dKk1PN4fUYVzQnV" Enabled="true" />
             <Fragment Id="V5R5Uvq5tyEPOOV35ceIjh" Patch="UKyEvhspFp0QaQCIUZtgVl" Enabled="true" />
           </ProcessDefinition>
-          <Link Id="PRSP2LeeRe3PAS6STXDvRZ" Ids="QzRg8DfrPwzN2hQAv5lis8,CJDENs4xZJFNAjklZKj2j0" />
-          <Link Id="FDCHLSvwGTkLVp3kk3J1eI" Ids="CJDENs4xZJFNAjklZKj2j0,BWC8WVfTDQgLWECqSCPOHf" />
-          <Link Id="ItaquyhcXKMMXdRvPDAfEh" Ids="FstTGdCsQUTMwAk7wrgzDw,PWMhXzgCYt1PHR0BkJY5Dq" />
-          <Slot Id="JHbhewOPdJ4QZO1q3YOsV6" Name="Model" />
+          <Slot Id="UXyrNBJfdrzQbOEkFWGi2L" Name="Model" />
+          <Link Id="BVXqMytPeC6M9RJktQLhCU" Ids="Po5LkTslxDPNsV6exNt61K,BWC8WVfTDQgLWECqSCPOHf" />
+          <Link Id="Ueh70itPlInQaf16jDGhCk" Ids="FstTGdCsQUTMwAk7wrgzDw,ENxKX3zBnsCQQHR0TTQ5fG" />
+          <Link Id="UK34sGwthtIQNIdAiLtRBM" Ids="BvNrbhYOIMOONFl1wdUHGz,Po5LkTslxDPNsV6exNt61K" />
         </Patch>
       </Node>
     </Canvas>
@@ -821,6 +821,6 @@
     </Node>
   </Patch>
   <DocumentDependency Id="VGF7aYLuDIFLhnf6W39chb" Location="../VL.ImGui.Extensions.vl" />
-  <NugetDependency Id="VMNYctrYzE7P8ZdLOrAkvw" Location="VL.ImGui" Version="2024.6.0-0244-ga4b76baedd" />
-  <NugetDependency Id="KArCXmBgyrHQT7BfIHCkGC" Location="VL.ImGui.Skia" Version="2024.6.0-0244-ga4b76baedd" />
+  <NugetDependency Id="VMNYctrYzE7P8ZdLOrAkvw" Location="VL.ImGui" Version="2024.6.0-0261-g38f7059b02" />
+  <NugetDependency Id="KArCXmBgyrHQT7BfIHCkGC" Location="VL.ImGui.Skia" Version="2024.6.0-0261-g38f7059b02" />
 </Document>
