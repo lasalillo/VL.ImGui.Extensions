@@ -11151,7 +11151,7 @@
                     <Choice Kind="TypeFlag" Name="ImGuiColorEditFlags" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Pad Id="KVeflypDgX4LCcvcDxOMhC" SlotId="JtGskvZvt7UOZzfmU2mRPS" Bounds="425,241" />
+                <Pad Id="KVeflypDgX4LCcvcDxOMhC" SlotId="JtGskvZvt7UOZzfmU2mRPS" Bounds="426,301" />
                 <ControlPoint Id="AJKxRx9RhgcLOts5Jm2dSO" Bounds="425,176" />
                 <Node Bounds="360,340,89,26" Id="GNXfnCoDztvO88DbV0R0gy">
                   <p:NodeReference LastCategoryFullName="ImGui.Editors.ObjectEditorContext" LastDependency="VL.ImGui.vl">
@@ -21178,7 +21178,7 @@
             <Link Id="KCZ2JBO7A2HNKPHQerS1v8" Ids="FuPjOW046nnONKZj0oRaZG,RRqP3CSsfEZMET3U1zcRIy" />
           </Patch>
         </Node>
-        <Overlay Id="VduPLYEH4RGPea85aHAznK" Name="Path &amp; GUID" Bounds="401,201,420,396">
+        <Overlay Id="VduPLYEH4RGPea85aHAznK" Name="Path &amp; GUID" Bounds="401,201,474,396">
           <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
         </Overlay>
         <!--
@@ -27836,7 +27836,7 @@
                 <ControlPoint Id="PEOXhRvmAceQPmZpnwwvtQ" Bounds="625,309" />
                 <ControlPoint Id="UQDUsHyyh6FNNFWRd2KQC2" Bounds="443,309" />
                 <ControlPoint Id="K2wVS95hDJpLdHJk2xYDNT" Bounds="495,309" />
-                <Node Bounds="214,572,499,873" Id="HPCxlaFqK0OOjmQMZnusUl">
+                <Node Bounds="214,564,499,881" Id="HPCxlaFqK0OOjmQMZnusUl">
                   <p:NodeReference LastCategoryFullName="ImGui.Widgets" LastDependency="VL.ImGui.vl">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Popup (Modal)" />
@@ -27893,7 +27893,7 @@
                       <Pin Id="FwJaFAKmJi7NUwyDqO699E" Name="Index" Kind="InputPin" />
                       <Pin Id="T3QetFvCjFGMUWS6esUcLs" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="381,595,52,19" Id="KtJFdSUL9tEMd15kmElzOO">
+                    <Node Bounds="380,587,52,19" Id="KtJFdSUL9tEMd15kmElzOO">
                       <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="4026531840" Name="Spread" NeedsToBeDirectParent="true" />
@@ -28143,7 +28143,7 @@
                       <Pin Id="F1zT6A4mud3OPwNFc0qpwZ" Name="Text Padding" Kind="InputPin" />
                       <Pin Id="QDNvjwxhmvNL1kCDqQffsh" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="264,764,77,19" Id="IDrsmEfhnXwPGrwbyJ7icK">
+                    <Node Bounds="274,751,77,19" Id="IDrsmEfhnXwPGrwbyJ7icK">
                       <p:NodeReference LastCategoryFullName="ImGui.Extensions.Binder" LastDependency="VL.ImGui.Extensions.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="PathToTarget (Reactive)" />
@@ -28438,7 +28438,7 @@
     ************************ Inspector (SelectedProperty) ************************
 
 -->
-          <Node Name="Inspector (SelectedProperty)" Bounds="216,275" Id="R3oyb1g8ItILANnuraHZ0E">
+          <Node Name="Inspector (SelectedProperty)" Bounds="216,273" Id="R3oyb1g8ItILANnuraHZ0E">
             <p:NodeReference>
               <Choice Kind="ContainerDefinition" />
             </p:NodeReference>
@@ -28531,14 +28531,14 @@
                   <Pin Id="E2rPZYmv5DAQOUHP7BPswx" Name="Style" Kind="InputPin" />
                   <Pin Id="Rea4S4xhlEtPWzGkQUSrKH" Name="Context" Kind="OutputPin" />
                 </Node>
-                <Pad Id="Dl6FxrOkjOzPHEEDASS1WB" Comment="Text" Bounds="310,484,59,15" ShowValueBox="true" isIOBox="true" Value="INSPECTOR">
+                <Pad Id="Dl6FxrOkjOzPHEEDASS1WB" Comment="Text" Bounds="413,407,59,15" ShowValueBox="true" isIOBox="true" Value="INSPECTOR">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
                 </Pad>
                 <ControlPoint Id="DurvO3aNvh7QPDU5T3p0qK" Bounds="387,237" />
-                <ControlPoint Id="V5vYHbGPWXOPNCzMcvZJqt" Bounds="411,261" />
-                <ControlPoint Id="KJS86yQKeYIMZyIZPjcEte" Bounds="430,292" />
+                <ControlPoint Id="V5vYHbGPWXOPNCzMcvZJqt" Bounds="420,266" />
+                <ControlPoint Id="KJS86yQKeYIMZyIZPjcEte" Bounds="436,295" />
                 <ControlPoint Id="UfblJYou9ayNGcvMG5VcJu" Bounds="451,322" />
                 <Node Bounds="458,481,125,19" Id="VKs31FJye0dODh3QVsvIkB">
                   <p:NodeReference LastCategoryFullName="ImGui.Styling" LastDependency="VL.ImGui.vl">
@@ -28571,7 +28571,7 @@
                     <Choice Kind="TypeFlag" Name="RGBA" />
                   </p:TypeAnnotation>
                 </Pad>
-                <ControlPoint Id="DyeScyIxettNvITVPCNAAs" Bounds="482,534" />
+                <ControlPoint Id="DyeScyIxettNvITVPCNAAs" Bounds="479,525" />
               </Canvas>
               <ProcessDefinition Id="CHMotlbKIAuP7XqopEADTA">
                 <Fragment Id="O2VjoMjEMAEQN22npLVDfd" Patch="D1Rqrkd1KbuQWYnbzl1BO7" Enabled="true" />
@@ -28617,7 +28617,7 @@
     ************************ PlacePopup ************************
 
 -->
-          <Node Name="PlacePopup" Bounds="267,321" Id="Ljt2gFkU1KJLDZNljSOJfv">
+          <Node Name="PlacePopup" Bounds="267,317" Id="Ljt2gFkU1KJLDZNljSOJfv">
             <p:NodeReference>
               <Choice Kind="ContainerDefinition" />
             </p:NodeReference>
@@ -28634,7 +28634,7 @@
                   <Pin Id="Gq2dRdiWzQFL2OpUBQ3714" Name="Anchor" Kind="InputPin" DefaultValue="Center" />
                   <Pin Id="FfAWyRO2Bf5M3YLbXFYUXq" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Pad Id="GTHJiiPlZ7UO9XGC4brqDY" Comment="Size" Bounds="406,398,35,28" ShowValueBox="true" isIOBox="true" Value="4.5, 3">
+                <Pad Id="GTHJiiPlZ7UO9XGC4brqDY" Comment="Size" Bounds="406,398,35,28" ShowValueBox="true" isIOBox="true" Value="4.5, 5">
                   <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Vector2" />
                   </p:TypeAnnotation>
@@ -28746,7 +28746,7 @@
     ************************ ComboStyle ************************
 
 -->
-          <Node Name="ComboStyle" Bounds="267,413" Id="Q9XROIcyyaGMrwVimaTLNo">
+          <Node Name="ComboStyle" Bounds="267,405" Id="Q9XROIcyyaGMrwVimaTLNo">
             <p:NodeReference>
               <Choice Kind="ContainerDefinition" />
             </p:NodeReference>
@@ -28882,7 +28882,7 @@
     ************************ RemoveBinderList ************************
 
 -->
-          <Node Name="RemoveBinderList" Bounds="267,367" Id="LMhtMKGicmPL9LAxsKkrl4">
+          <Node Name="RemoveBinderList" Bounds="267,361" Id="LMhtMKGicmPL9LAxsKkrl4">
             <p:NodeReference>
               <Choice Kind="ContainerDefinition" />
             </p:NodeReference>
@@ -29287,7 +29287,7 @@
     ************************ ClosePopupLogic ************************
 
 -->
-          <Node Name="ClosePopupLogic" Bounds="267,459" Id="VZMWmb42AebPW2ViqN4Kij">
+          <Node Name="ClosePopupLogic" Bounds="267,449" Id="VZMWmb42AebPW2ViqN4Kij">
             <p:NodeReference>
               <Choice Kind="ContainerDefinition" />
             </p:NodeReference>
