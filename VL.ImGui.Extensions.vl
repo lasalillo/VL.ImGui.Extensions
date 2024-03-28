@@ -28128,6 +28128,7 @@
                       <Pin Id="GkSpnXjcrtHLJyzXuTDq9a" Name="Channel" Kind="InputPin" />
                       <Pin Id="PUQkkTd7f6nLP1iDTf0l6i" Name="Type Name" Kind="InputPin" />
                       <Pin Id="GmodEjLALBRQPsWn3D2Vx5" Name="Factory" Kind="InputPin" />
+                      <Pin Id="Ad2ylOMXmuFM1QBBnqRzXX" Name="Style" Kind="InputPin" />
                     </Node>
                     <Node Bounds="490,700,125,19" Id="CUEizPAyIs2LbchV298P7n">
                       <p:NodeReference LastCategoryFullName="ImGui.Styling" LastDependency="VL.ImGui.vl">
@@ -28572,6 +28573,12 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <ControlPoint Id="DyeScyIxettNvITVPCNAAs" Bounds="479,525" />
+                <ControlPoint Id="AFbrMf018ZNQXXRgQFQouj" Bounds="663,500" />
+                <Pad Id="Pv3Zr4KSU0KP2Xrkde7aZP" Comment="Flags" Bounds="658,537,151,15" ShowValueBox="true" isIOBox="true" Value="BordersOuter">
+                  <p:TypeAnnotation LastCategoryFullName="ImGui.Flags" LastDependency="VL.ImGui.vl">
+                    <Choice Kind="TypeFlag" Name="ImGuiTableFlags" />
+                  </p:TypeAnnotation>
+                </Pad>
               </Canvas>
               <ProcessDefinition Id="CHMotlbKIAuP7XqopEADTA">
                 <Fragment Id="O2VjoMjEMAEQN22npLVDfd" Patch="D1Rqrkd1KbuQWYnbzl1BO7" Enabled="true" />
@@ -28599,6 +28606,7 @@
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="PTC6AgOpycYNU4pUB0cFmR" Name="Factory" Kind="InputPin" />
+                <Pin Id="NsKR7l9x1W0LwLwmkbEuUf" Name="Style" Kind="InputPin" />
               </Patch>
               <Link Id="EuuOsHsx3MkPAcebG13r32" Ids="UfblJYou9ayNGcvMG5VcJu,GDrdfKDeabVNdW1BeIOg6g" />
               <Link Id="Ftku2q7L6gHLkJIODVF0ZV" Ids="N8ZxiSHxXynQONb0BQdH81,D3FmBXz67v5MC0Y6aDtZie" />
@@ -28610,6 +28618,9 @@
               <Link Id="A0ZzifM2AZFOELt3CyHEMo" Ids="PTC6AgOpycYNU4pUB0cFmR,DyeScyIxettNvITVPCNAAs" IsHidden="true" />
               <Link Id="M22Oahulh0VMQRsSG7sIW2" Ids="Gn3s6WFktbWNVrNr6GlZBj,NPInVUvQwssOwAVXJtU4jo" />
               <Link Id="PfCKLRlnyLZPTz4C2wYEGQ" Ids="Rea4S4xhlEtPWzGkQUSrKH,PwdV1EMUCL3MCGc0ZKfmg7" />
+              <Link Id="OhEeBcB4SYfLkqY1NyBbLF" Ids="AFbrMf018ZNQXXRgQFQouj,R5pRO41rzKWPqyJ8yX1o6T" />
+              <Link Id="QPbDceJfneRLriYEcZpEaR" Ids="NsKR7l9x1W0LwLwmkbEuUf,AFbrMf018ZNQXXRgQFQouj" IsHidden="true" />
+              <Link Id="N7O0k8E537sM3wiXWNBc14" Ids="Pv3Zr4KSU0KP2Xrkde7aZP,M9dJMXZ9yh4LSYZoH2P4iN" />
             </Patch>
           </Node>
           <!--
