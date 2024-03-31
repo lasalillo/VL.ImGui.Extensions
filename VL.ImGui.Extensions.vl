@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MLZKnoK29TRLwCRq7yCQHL" LanguageVersion="2024.6.0-0314-g35facf5fa7" Version="0.128">
-  <NugetDependency Id="GjFSpG02r4COE2SgCBIS4s" Location="VL.CoreLib" Version="2024.6.0-0314-g35facf5fa7" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="MLZKnoK29TRLwCRq7yCQHL" LanguageVersion="2024.6.0-0325-gfb1cf769ac" Version="0.128">
+  <NugetDependency Id="GjFSpG02r4COE2SgCBIS4s" Location="VL.CoreLib" Version="2024.6.0-0325-gfb1cf769ac" />
   <Patch Id="B7PZCIliR9CPuYnVtOqRyi">
     <Canvas Id="SR4jdXukqpSLr3dcuSmEve" DefaultCategory="ImGui.Extensions" CanvasType="FullCategory">
       <Canvas Id="RaPtm9tRjEdMZ3iAGaaRF6" Name="Editors" Position="199,364">
@@ -24979,7 +24979,7 @@
                 <Pin Id="CMlFObiQMHkMJlPwUv8ceo" Name="Pointer" Kind="OutputPin" />
               </Node>
               <Pad Id="MSmdBP9LBpBPkRHZMwQ0o6" Comment="Count" Bounds="938,1247,35,15" ShowValueBox="true" isIOBox="true" />
-              <Pad Id="BGkAWwIh8J1MtzlxvReCSD" Comment="Pointer" Bounds="1059,1251,35,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="BGkAWwIh8J1MtzlxvReCSD" Comment="Pointer" Bounds="1058,1247,35,15" ShowValueBox="true" isIOBox="true" />
               <Node Bounds="865,937,96,19" Id="UMvQ4moNnJhOtb9F61U5sx">
                 <p:NodeReference LastCategoryFullName="ImGui.Extensions.File" LastDependency="VL.ImGui.Extensions.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -25755,7 +25755,7 @@
               </Node>
               <ControlPoint Id="OJbs1llWfvmNxJhRpJeG2a" Bounds="1935,385" />
               <ControlPoint Id="OMYBzQxKI2PO6yG0p8VxSb" Bounds="450,586" />
-              <ControlPoint Id="DZLBD69lUWDONZIZ6Ofug3" Bounds="1138,1161" />
+              <ControlPoint Id="DZLBD69lUWDONZIZ6Ofug3" Bounds="1138,1160" />
               <Node Bounds="619,889,53,19" Id="AANHAYbEYLwOa7zjH757Kv">
                 <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -25864,6 +25864,7 @@
               </Node>
               <Pad Id="TZ7nBO0ZEwYOKrZOrHQi7K" SlotId="QFx3BDIHskzLXoTJ61SUiA" Bounds="2230,564" />
               <ControlPoint Id="TdQj0JJ5XTtPtBsr0k6T1o" Bounds="2230,598" />
+              <ControlPoint Id="D9whqR5Kf0WOFhvN9KjcJS" Bounds="1216,1160" />
             </Canvas>
             <ProcessDefinition Id="NwbeaflHjETP5AHOUVMwcq">
               <Fragment Id="T4WisXZ6pXwNrS1m2cYJwJ" Patch="IPLxEzE2DnULiMDydSMf5m" Enabled="true" />
@@ -26062,12 +26063,15 @@
             <Link Id="LaFl6ABro5kMRegF1fSobo" Ids="AwrlkIK2PKrPHPYQF3hlCy,FDHqOzRzoEaLOlttAacptJ" />
             <Link Id="Rwqcpjj3JPiNSdP4S5yNJL" Ids="TZ7nBO0ZEwYOKrZOrHQi7K,TdQj0JJ5XTtPtBsr0k6T1o" />
             <Link Id="Ck4iz4VNCneM43e0n3sqHc" Ids="TdQj0JJ5XTtPtBsr0k6T1o,QE6e7j9CJIQN1SYoynMTuo" IsHidden="true" />
+            <Link Id="OTPNcy019e8MuVJEyplbDo" Ids="D9whqR5Kf0WOFhvN9KjcJS,GCBg3jXRVC3QHRDO05uWSy" />
+            <Link Id="RPrwb8lv0BnNLq37pW4b4a" Ids="Kvso5Gh6AKYMh5j1EccmYb,D9whqR5Kf0WOFhvN9KjcJS" IsHidden="true" />
             <Patch Id="IPLxEzE2DnULiMDydSMf5m" Name="Create" ParticipatingElements="U1lQ9UqJCVTOY6NQ2hbK6G,VxQ5jpmrbf1QJ7pLn2mmNd,VhQ3cANpAueNrO4QQ9kDcX,EItvZ0EgKPDNnxgmxRlEps,JSv9oR64YCyNYuPjUjgg9l,S7Mmxw6V0ZrL16obAVytn1,A8ybgShvZlbNe0o74e5qm3,IcvenH2UFCbMeHesUDSoBJ,FSAr7TX2MvRPjmyB5pxns8,EKwz2BhIzsoNqqPL8GzeNT,OFL5iGOcYK5MYloCWvw6GS,Md1gwUZXFHuNHB9rKUZEh2,ETDWhisBt08MM9iiTfdRch,J8DSXEYMe3iN4YscUTItg6,RFcfSFG2ZPuQBKgj30P8P7,PYOGkeXBNmwL6O33nWZP10,KNZnrsrOrXMOKY0imAexTZ,UT8XeqpOMRaO52NO2m7842,GN4g0cQ9OOPNQ5VlUoI3jx,IvEqTtLPSfrMRxcI0INgY6,S0A4zOE44tEN5CMxkU5epO,GbL0GFK6ON3PcpNq4rgFcM">
               <Pin Id="BMvhpobVWyHNHMgs4ZgH9H" Name="InitPath" Kind="InputPin" />
             </Patch>
             <Patch Id="Baphk0zV1o6L5kDUvwTLla" Name="Update">
               <Pin Id="LLJtnKJvtSeL6LJg38q77X" Name="Model" Kind="InputPin" />
               <Pin Id="PY2A50VR6YHN9H5rdLNVID" Name="Undo Levels" Kind="InputPin" DefaultValue="150" />
+              <Pin Id="Kvso5Gh6AKYMh5j1EccmYb" Name="Block Undo" Kind="InputPin" />
               <Pin Id="FhWDSirYW2nLva3eatZDAo" Name="ActiveForm" Kind="InputPin" />
               <Pin Id="O9ooZoGkvAELnm4JrAFi7O" Name="Load" Kind="OutputPin" />
               <Pin Id="I7bJPdkBrX4OX5fdjIwEcE" Name="Save" Kind="OutputPin" />
@@ -26491,13 +26495,18 @@
               </Node>
               <ControlPoint Id="GKAxB1UhezbN905kIQAWA0" Bounds="666,577" />
               <ControlPoint Id="PlOl3UMfHjpPxybm5lydUv" Bounds="705,148" />
-              <Node Bounds="705,241,37,19" Id="KRTw7SgJyFWQBy9VHgzjMV">
-                <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
+              <Node Bounds="702,271,65,19" Id="BDpl9pY4Co0N0h5oToecoK">
+                <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="NOT" />
+                  <Choice Kind="ProcessAppFlag" Name="MonoFlop (FrameBased)" />
                 </p:NodeReference>
-                <Pin Id="JxgfoQJxqpwM2MN6mM85om" Name="Input" Kind="StateInputPin" />
-                <Pin Id="IB3DyAEfEUROYoFRnml39X" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="R4ywTJnpNqlMrxH8di86Qu" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="MK2fL9sA7UmOTqRu6dhPeN" Name="Set" Kind="InputPin" />
+                <Pin Id="FbrqL2fJkdHNLkblUnzfoQ" Name="Frames" Kind="InputPin" DefaultValue="3" />
+                <Pin Id="A6w7hbN3fFkP8d4ZOvjtV9" Name="Retriggerable" Kind="InputPin" />
+                <Pin Id="SxmTxBbKekaNq9n0mLHBXI" Name="Reset" Kind="InputPin" />
+                <Pin Id="MIn33rdX9JuQD59CUejXJq" Name="Value" Kind="OutputPin" />
+                <Pin Id="D0yirA2uyLjNFzYCGwHqYu" Name="Inverse Output" Kind="OutputPin" />
               </Node>
             </Canvas>
             <ProcessDefinition Id="U58I5b3Tmg1LJDv7CMbMbS">
@@ -26573,9 +26582,7 @@
             <Link Id="O31JMqMdHlgO4I2VvMkeFg" Ids="BhkVb4lKSsYNaSjjJB1mbZ,TaYMu0HsGp5P2lpRiAKHlr" />
             <Link Id="Hhd5WkZXKHSL9EhyGfzOQt" Ids="GKAxB1UhezbN905kIQAWA0,RiLwbMwMwTPN9c7jkhxaHq" />
             <Link Id="KUTkdTYhP4dQKTMi5ZHJXA" Ids="VSP4adIyw4rOD3s0J0f5Kj,GKAxB1UhezbN905kIQAWA0" IsHidden="true" />
-            <Link Id="GycMDCcLdxNNbJOA7mYwbY" Ids="PlOl3UMfHjpPxybm5lydUv,JxgfoQJxqpwM2MN6mM85om" />
             <Link Id="ONdxVMZlxw7MrJM13b0wo0" Ids="HyzeNRrh4K4OOTC8ObSfbe,PlOl3UMfHjpPxybm5lydUv" IsHidden="true" />
-            <Link Id="S2lGmksBLOGQIXW0KeyQlf" Ids="IB3DyAEfEUROYoFRnml39X,Jeg1nZUHwBiPyZiz08yQH5" />
             <Link Id="DFc05wr1AMYPYb7Q17wakl" Ids="Fumo6al9YmGOdVKTdVutDT,IEgpM4fsaDPPsA4xf7FrDL" />
             <Link Id="OaM65hncntbPfYkNpqcuvD" Ids="DUtFnTFSJ3vOJV984DSaAV,SRMSJsN5atrNJCYR1TccxX" />
             <Link Id="UJxlx2w2dvoOlcUPflxsQN" Ids="F6LCG8VG5iCNBtsrZbTVxU,PcJV04n9z3pLkynkyheOUG" />
@@ -26595,6 +26602,8 @@
               <Pin Id="BKsN8A5bffTMh3cBdzaKCI" Name="Count" Kind="OutputPin" />
               <Pin Id="OtdqTdIRzvBQBq0XS9jHP0" Name="Pointer" Kind="OutputPin" />
             </Patch>
+            <Link Id="TmKalX7QG8aN6BQB71o2mT" Ids="PlOl3UMfHjpPxybm5lydUv,MK2fL9sA7UmOTqRu6dhPeN" />
+            <Link Id="RXhNVdjYlIyNiqfvNPHFzg" Ids="D0yirA2uyLjNFzYCGwHqYu,Jeg1nZUHwBiPyZiz08yQH5" />
           </Patch>
         </Node>
         <!--
@@ -29483,13 +29492,13 @@
     <Patch Id="EdZgB5qIL8PNt5xJygvacn" Name="Create" />
     <Patch Id="MeCs37BSM2jLU84uirlYJ1" Name="Update" />
   </Patch>
-  <NugetDependency Id="Fz6axuE89zVOcXmGwHDL5A" Location="VL.ImGui" Version="2024.6.0-0314-g35facf5fa7" />
+  <NugetDependency Id="Fz6axuE89zVOcXmGwHDL5A" Location="VL.ImGui" Version="2024.6.0-0325-gfb1cf769ac" />
   <PlatformDependency Id="GE6bB6xCDXlNNSsuQ9IKbR" Location="mscorlib" />
   <PlatformDependency Id="TK3qAIgzVz0LGMpgBMfU7H" Location="System.Windows.Forms" />
-  <NugetDependency Id="RXHFSJBiLBFOUBi35DDxPO" Location="VL.ImGui.Skia" Version="2024.6.0-0314-g35facf5fa7" />
+  <NugetDependency Id="RXHFSJBiLBFOUBi35DDxPO" Location="VL.ImGui.Skia" Version="2024.6.0-0325-gfb1cf769ac" />
   <PlatformDependency Id="Jr0J7YFNkjUNjsT7nAD5Yt" Location="C:/Program Files/vvvv/vvvv_gamma_6.0-0203-gf9bb287561/packs/VL.ImGui/lib/net8.0/VL.ImGui.dll" />
-  <NugetDependency Id="B5TTozCwIiuQA8VyZ37nnt" Location="VL.Skia" Version="2024.6.0-0314-g35facf5fa7" />
-  <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.0-0314-g35facf5fa7" />
+  <NugetDependency Id="B5TTozCwIiuQA8VyZ37nnt" Location="VL.Skia" Version="2024.6.0-0325-gfb1cf769ac" />
+  <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.0-0325-gfb1cf769ac" />
   <NugetDependency Id="PlRhbh0BCYQNt1FHbWAAo7" Location="VL.IO.MouseKeyGlobal" Version="5.2.1" />
   <NugetDependency Id="AZph3pRFRUrLk7r7gF08sl" Location="VL.WinFormsUtils" Version="1.0.9" />
 </Document>
