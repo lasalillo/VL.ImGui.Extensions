@@ -19151,11 +19151,7 @@
                         <Item>Interpolate</Item>
                       </p:Value>
                     </Pad>
-                    <Pad Id="NYMhRroWVDGPd1ymLKmyyL" Comment="Default Value" Bounds="725,553,81,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
-                      <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
-                        <Choice Kind="TypeFlag" Name="TargetMode" />
-                      </p:TypeAnnotation>
-                    </Pad>
+                    <Pad Id="NYMhRroWVDGPd1ymLKmyyL" Comment="Default Value" Bounds="725,553,81,15" ShowValueBox="true" isIOBox="true" Value="Interpolate" />
                   </Patch>
                 </Node>
                 <ControlPoint Id="R3Cwc3Iuz65MrK9NBweE7V" Bounds="593,331" />
@@ -19412,10 +19408,10 @@
               <Link Id="Q6egM91EnInQcwvrn34OJO" Ids="K6n7gy2AdE9PglFiSUcDsO,KnhfG7VK7wdLcd0YK5h5ET" />
               <Link Id="LA69K9vlzBSLkJoqaDbTBI" Ids="DcmUo8TOvBTMKuMZZzz3Oo,G7zsN5yFOMLOE6HP9K5rpa" />
               <Link Id="IFbcQDUzhjDMTABN5q6BLx" Ids="Ce1zURc3NTYPaZ5hHM4dbY,IIImnFEAyZWQKtWQirwDuC" />
-              <Link Id="DIJXNVkQOyXNYFgOIE3Pl5" Ids="NYMhRroWVDGPd1ymLKmyyL,Jh8fLgY8kP2PieOkfP6tgX" />
-              <Link Id="COdn8mhOIkIMvBdOYpdjL9" Ids="G41tu9qNphUNXxL8PZSgBU,HHmmK8YcIGPOl3JBWx2R0u" />
               <Link Id="VeNpwxj1WIdO2PiQ0HSPo6" Ids="IDMvlS4QimRPFOHzI9H74H,EbVc7X4WT7FQUK9PbTnPv4" />
               <Link Id="DB3EWWwO9UtOmahVcTPOWV" Ids="VPfSA76CweRLIaWUrauqHF,IOaIYkzJjBWNOwLjm8WBpv" />
+              <Link Id="LWNBI24p8icP1MGf6HFJzE" Ids="G41tu9qNphUNXxL8PZSgBU,HHmmK8YcIGPOl3JBWx2R0u" />
+              <Link Id="PHyBaeuLqPwNjCPLlJ475w" Ids="NYMhRroWVDGPd1ymLKmyyL,Jh8fLgY8kP2PieOkfP6tgX" />
             </Patch>
           </Node>
         </Canvas>
