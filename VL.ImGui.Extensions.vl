@@ -11646,7 +11646,7 @@
                       <Patch Id="Ra1LvAwzcuHM4cnyfwk5SD" ManuallySortedPins="true">
                         <Patch Id="AA537mXiSlqN9AcoePvd6v" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="EPPuPGfKmAWP6S1CrraXpJ" Name="Then" ManuallySortedPins="true" />
-                        <Node Bounds="263,524,65,26" Id="GjEwGJruLjJLoYdhW37N1z">
+                        <Node Bounds="263,524,85,26" Id="GjEwGJruLjJLoYdhW37N1z">
                           <p:NodeReference LastCategoryFullName="ImGui.Extensions.Editors.CustomEditors.SpreadEditor" LastDependency="VL.ImGui.Extensions.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="SpreadEditor" NeedsToBeDirectParent="true" />
@@ -28268,7 +28268,7 @@
                 <Pin Id="BeXEVImbg9zPG6yLSrhKvq" Name="Glyph Range" Kind="InputPin" />
                 <Pin Id="HjHKtAWSXotOrbPsExQ9xf" Name="Output" Kind="OutputPin" />
               </Node>
-              <Node Bounds="235,387,99,19" Id="CU8gmIPscHTOJTOcfRGyWr">
+              <Node Bounds="235,387,193,19" Id="CU8gmIPscHTOJTOcfRGyWr">
                 <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="4026531840" Name="Spread" NeedsToBeDirectParent="true" />
@@ -28277,6 +28277,7 @@
                 <Pin Id="LruIpLPImhhLRIF817x15V" Name="Input" Kind="InputPin" />
                 <Pin Id="JbKDT7YSU6cMUzxpvHCIRK" Name="Input 2" Kind="InputPin" />
                 <Pin Id="IHKdQavt6KuPzZCUpEmgIE" Name="Result" Kind="OutputPin" />
+                <Pin Id="LqYJWiTdbP1P1fDjhyY4fK" Name="Input 3" Kind="InputPin" />
               </Node>
               <Node Bounds="329,356,85,19" Id="Gm7x14MywrwOEV95ON7s8H">
                 <p:NodeReference LastCategoryFullName="ImGui.Styling" LastDependency="VL.ImGui.vl">
@@ -28292,12 +28293,12 @@
                 <Pin Id="TjW7B8wbOPAMqvhQH7pUEM" Name="Glyph Range" Kind="InputPin" />
                 <Pin Id="KUUzRFyKByyMnXKUYssILt" Name="Output" Kind="OutputPin" />
               </Node>
-              <Pad Id="L0t7tf7ieiWNDVsDuPjOEf" Comment="Name" Bounds="393,280,74,15" ShowValueBox="true" isIOBox="true" Value="ProjectName">
+              <Pad Id="L0t7tf7ieiWNDVsDuPjOEf" Comment="Name" Bounds="392,212,74,15" ShowValueBox="true" isIOBox="true" Value="ProjectName">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pad>
-              <Pad Id="MDXJqwQo34cMrVIdaZZyHK" Comment="Name" Bounds="296,256,90,15" ShowValueBox="true" isIOBox="true" Value="SegoeUI">
+              <Pad Id="MDXJqwQo34cMrVIdaZZyHK" Comment="Name" Bounds="299,187,90,15" ShowValueBox="true" isIOBox="true" Value="SegoeUI">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -28314,6 +28315,30 @@
                 </p:TypeAnnotation>
               </Pad>
               <Pad Id="VrZFquMHGvAPVd3SkLC89N" Comment="Size" Bounds="579,320,35,15" ShowValueBox="true" isIOBox="true" Value="0.16">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Node Bounds="421,357,85,19" Id="VYs5opYRSLBPXsOnUY2Bal">
+                <p:NodeReference LastCategoryFullName="ImGui.Styling" LastDependency="VL.ImGui.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="ImGui" />
+                  <Choice Kind="ProcessAppFlag" Name="FontConfig" />
+                </p:NodeReference>
+                <Pin Id="IUusD29mbiFL2pgSGiJknh" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="FpFm0EJfrzxNzrYniXLGqk" Name="Family Name" Kind="InputPin" DefaultValue="Consolas" />
+                <Pin Id="HcJZT5yOtobNo9XGEFFskn" Name="Font Style" Kind="InputPin" DefaultValue="Regular" />
+                <Pin Id="IUdNu2ySAi4O4rFPmksD1J" Name="Size" Kind="InputPin" DefaultValue="0.16" />
+                <Pin Id="N3RbJkHtkrBMVjcLgBkfZM" Name="Name" Kind="InputPin" DefaultValue="ConsolasSmall" />
+                <Pin Id="LAMPIBqhAy2Lnvav0RijfP" Name="Glyph Range" Kind="InputPin" />
+                <Pin Id="OGJ59I4SclqMdxJinUUR35" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Pad Id="S9m4l7chOWpPocXOZwPplk" Comment="Name" Bounds="483,263,74,15" ShowValueBox="true" isIOBox="true" Value="SmallFont">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="String" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="KH07EAvE9IYLTk0NQD96qN" Comment="Size" Bounds="666,323,35,15" ShowValueBox="true" isIOBox="true" Value="0.12">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
@@ -28336,6 +28361,10 @@
             <Link Id="HzuvihCBcxHOi57PB0btmO" Ids="HjHKtAWSXotOrbPsExQ9xf,LruIpLPImhhLRIF817x15V" />
             <Link Id="NS3n9X5Z8CyOWugUXqrqSe" Ids="Rcjh69pOulbMRJ6u1ynwns,Ko0lh4TbdTeMpD90F2ktGT" />
             <Link Id="VlbJbPqSYOPPkjGATe5DKd" Ids="VrZFquMHGvAPVd3SkLC89N,SFcr7kmvKawOIEwgz9QlMd" />
+            <Link Id="DpCO4lvsVUxLmw0FlHq8eU" Ids="OGJ59I4SclqMdxJinUUR35,LqYJWiTdbP1P1fDjhyY4fK" />
+            <Link Id="P74KOsUPmYVQYzbQbC2303" Ids="S9m4l7chOWpPocXOZwPplk,N3RbJkHtkrBMVjcLgBkfZM" />
+            <Link Id="TxiIcyxItlOOzPQmL1m58J" Ids="KH07EAvE9IYLTk0NQD96qN,IUdNu2ySAi4O4rFPmksD1J" />
+            <Link Id="KDrXezHuBjqOnGi9jXX49f" Ids="Rcjh69pOulbMRJ6u1ynwns,FpFm0EJfrzxNzrYniXLGqk" />
           </Patch>
         </Node>
         <Canvas Id="INrZy7XPc6wMNmZL50N0dN" Name="TrackBinder" Position="215,384">
