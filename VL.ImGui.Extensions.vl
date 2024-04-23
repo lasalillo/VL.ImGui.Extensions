@@ -33552,7 +33552,7 @@
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pad>
-              <Pad Id="KH07EAvE9IYLTk0NQD96qN" Comment="Size" Bounds="666,323,35,15" ShowValueBox="true" isIOBox="true" Value="0.12">
+              <Pad Id="KH07EAvE9IYLTk0NQD96qN" Comment="Size" Bounds="655,319,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
@@ -35218,5 +35218,5 @@
   <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.3-0014-g2d6129bc7d" />
   <NugetDependency Id="PlRhbh0BCYQNt1FHbWAAo7" Location="VL.IO.MouseKeyGlobal" Version="5.2.1" />
   <NugetDependency Id="AZph3pRFRUrLk7r7gF08sl" Location="VL.WinFormsUtils" Version="1.0.9" />
-  <NugetDependency Id="LVmiPr9eRTjMBsJUxIy0gW" Location="VL.Interpolator" Version="1.1.9" />
+  <NugetDependency Id="LVmiPr9eRTjMBsJUxIy0gW" Location="VL.Interpolator" Version="1.1.11" />
 </Document>
