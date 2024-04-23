@@ -11791,9 +11791,9 @@
                       <Pin Id="JJRosDMg16GNSEBGDWA4cj" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="1286,662,78,26" Id="FB9LLV8VCvpPrfgCm9D12x">
-                      <p:NodeReference LastCategoryFullName="ImGui.Extensions.Editors.CustomEditors.PathEditor_Image" LastDependency="VL.ImGui.Extensions.vl">
+                      <p:NodeReference LastCategoryFullName="ImGui.Extensions.Editors.CustomEditors.PathEditor_AllFiles" LastDependency="VL.ImGui.Extensions.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <CategoryReference Kind="ClassType" Name="PathEditor_Image" NeedsToBeDirectParent="true" />
+                        <CategoryReference Kind="ClassType" Name="PathEditor_AllFiles" NeedsToBeDirectParent="true" />
                         <Choice Kind="OperationCallFlag" Name="Create" />
                       </p:NodeReference>
                       <Pin Id="EbAnwp8ftvDQDSSLz4n9vV" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -15538,9 +15538,9 @@
               <Slot Id="BsV3WCAP8MoOhoV9T29ieO" Name="X" />
               <Link Id="ShhbnlEzaKoMQuHMndK2ST" Ids="OK4i9SmmuidOWwA5CenSqV,QRzAAVv7xtpLYcglI60WnZ" />
               <Link Id="JRV6YXGWmkvQH2bLY8MlPp" Ids="BAziXImYhaRMtWz3ErCgbR,SABffhkDr7HLdzwbB4gRyM" />
-              <Link Id="KNbYvuovWtJOrqujdrwAj9" Ids="CowSUjnotkJNB1qTJMgWGB,R5IZQAhgkZbOvAmgJykwUf" />
               <Link Id="NPAHIkLnj68MnFv8FLsH8z" Ids="Klz1aQofPnWOhnZgMoJp3A,Im4hgfnswLrPEXncgo9iv2" />
               <Link Id="L8NztVm4byFMpC7ZLQHD5h" Ids="DaOL4TxxErmLzTAZt3XgxG,DNr1VUPqgs7PIRKTa75asM" />
+              <Link Id="QrbxZQXGpjtP2RVLVjOD5t" Ids="CowSUjnotkJNB1qTJMgWGB,R5IZQAhgkZbOvAmgJykwUf" />
             </Patch>
           </Node>
           <!--
