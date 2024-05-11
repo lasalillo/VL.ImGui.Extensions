@@ -32236,7 +32236,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Renderer" />
                 </p:NodeReference>
-                <Pin Id="O9eDlpGf0KHP2IWLKkIVRI" Name="Bounds" Kind="InputPin" DefaultValue="0, 2, 334, 708" />
+                <Pin Id="O9eDlpGf0KHP2IWLKkIVRI" Name="Bounds" Kind="InputPin" />
                 <Pin Id="GPUq5is1UHyMb4cg6bcs0h" Name="Save Bounds" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="MHhP349G4a9Njf5rtk32kw" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="PQKacorKju5ORCB90OMquL" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -32471,7 +32471,6 @@
             <Link Id="LuXwiVp53HKOHAqyn7mxSm" Ids="JFuuqgtm7uUNJtNQdtZdej,KG3NVBuNSH5OwUOGd1Q0DF" />
             <Link Id="BdhASOjd67PLpvtbAwNxiw" Ids="KiKMchMPtF4MXDawF6j1v2,GQTFbV38pKAMxzFcv6Gdmf" />
             <Link Id="BSWlRq3AgsyN44yEIlfNG1" Ids="JYzhnGk53alL4EP9JJamlO,MHhP349G4a9Njf5rtk32kw" />
-            <Link Id="DJT4kMj5OdnNXRLnlcKEIM" Ids="CyceifPaq1MPjPNGzWOirY,O9eDlpGf0KHP2IWLKkIVRI" />
             <Link Id="Q9bpvDMM4hiNkZ7NXdU20I" Ids="HTBHpOMAysQME2RFSmQsin,F0iQaURfmO7PpHEWtOOX60" />
             <Link Id="PnadB5MnmrWLNOGMZRpbGk" Ids="Ibds5qUIo4VLwNwkUspNbd,F6X7nxeu2xDNsGN8gp9BlM" />
             <Link Id="M8JWIsOX5bvMr61S3dtZ9t" Ids="F6X7nxeu2xDNsGN8gp9BlM,If2ze947qGkLHNG25FlZvy" IsHidden="true" />
@@ -32521,6 +32520,7 @@
               <Pin Id="Gd48DjjBKGjPPCL5iE0zHz" Name="Width" Kind="OutputPin" />
               <Pin Id="G8Zel7tL6Y9NWWo3P0jAP0" Name="ClientBounds" Kind="OutputPin" />
             </Patch>
+            <Link Id="RtqUDkMgKlvNh1JORnEF8W" Ids="CyceifPaq1MPjPNGzWOirY,O9eDlpGf0KHP2IWLKkIVRI" />
           </Patch>
         </Node>
         <!--
