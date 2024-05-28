@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="U0WoUhFxEbLLXaRz16LNYP" LanguageVersion="2024.6.5-0001-g60ef6fbffd" Version="0.128">
+  <NugetDependency Id="PUwUcX4gJnXLF35cxfhpMo" Location="VL.CoreLib" Version="2024.6.5-0001-g60ef6fbffd" />
+  <Patch Id="GE9XEkoxRhVMQO391mU4Ub">
+    <Canvas Id="I3WKvIlGnPmL4XNgx2J5SO" DefaultCategory="Main" CanvasType="FullCategory">
+      <!--
+
+    ************************ IList (NonGeneric Mutable) ************************
+
+-->
+      <Node Name="IList (NonGeneric Mutable)" Bounds="216,229" Id="Vq8CpcidKZaLvvdmR2QQei">
+        <p:NodeReference>
+          <Choice Kind="ForwardDefinition" Name="Forward" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <p:TypeAnnotation LastCategoryFullName="Collections.Interfaces" LastDependency="VL.CoreLib.vl">
+          <Choice Kind="TypeFlag" Name="IList" />
+        </p:TypeAnnotation>
+        <Patch Id="HIJmg9SkxEmO0AK3EdDFJM">
+          <Canvas Id="IwiY4dhog8KQJ64gJaP80t" BordersChecked="false" CanvasType="Group" />
+          <ProcessDefinition Id="MvCRdxoPBwDOXtBAGipAUx" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Form ************************
+
+-->
+      <Node Name="Form" Bounds="216,271" Id="RW0IygJ0jmbM9KNn5yipkF">
+        <p:NodeReference>
+          <Choice Kind="ForwardDefinition" Name="Forward" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <p:TypeAnnotation LastCategoryFullName="System.Windows.Forms" LastDependency="System.Windows.Forms.dll">
+          <Choice Kind="TypeFlag" Name="Form" />
+        </p:TypeAnnotation>
+        <Patch Id="LhtZ8JFEJjcNeT66NhQAtw">
+          <Canvas Id="IxuAvHKJEdAQWf2i7idkfS" BordersChecked="false" CanvasType="Group" />
+          <ProcessDefinition Id="MdHKlPihfeLNxeWKfojOPX" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Control ************************
+
+-->
+      <Node Name="Control" Bounds="216,313" Id="Ru8wwrC74KYND6REaX58li">
+        <p:NodeReference>
+          <Choice Kind="ForwardDefinition" Name="Forward" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <p:TypeAnnotation LastCategoryFullName="System.Windows.Forms" LastDependency="System.Windows.Forms.dll">
+          <Choice Kind="TypeFlag" Name="Control" />
+        </p:TypeAnnotation>
+        <Patch Id="J73wKBjWpgBPNpDBE4b6xL">
+          <Canvas Id="J0uEIrLrhT0PhP0V390XvI" BordersChecked="false" CanvasType="Group" />
+          <ProcessDefinition Id="PRbTDsU42JFLjrTSC8DBW8" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Clipboard ************************
+
+-->
+      <Node Name="Clipboard" Bounds="217,354" Id="Nb74nVJolFVLr4XE3O6YXk">
+        <p:NodeReference>
+          <Choice Kind="ForwardDefinition" Name="Forward" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <p:TypeAnnotation LastCategoryFullName="System.Windows.Forms" LastDependency="System.Windows.Forms.dll">
+          <Choice Kind="TypeFlag" Name="Clipboard" />
+        </p:TypeAnnotation>
+        <Patch Id="CBDD9Agd4GXLybytrwSFJg">
+          <Canvas Id="POhOo26db9fNhFRCw0P01K" BordersChecked="false" CanvasType="Group" />
+          <ProcessDefinition Id="Fvecs6CNVrQLujH2wvOArU" IsHidden="true" />
+        </Patch>
+      </Node>
+    </Canvas>
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="R0AUFQbNK8XQc4l3V85n7i">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="TcbVujIxMvkMVksJpZjbNu">
+        <Canvas Id="BAfdoIUK6gxNWK7UGjUuGK" CanvasType="Group" />
+        <Patch Id="JEVM2BCSxz7LH0sP8i63uA" Name="Create" />
+        <Patch Id="OgoaIE5Kr5NOcNY1nAG92G" Name="Update" />
+        <ProcessDefinition Id="QePSBirY1nXPQxQASfMrwm">
+          <Fragment Id="TsEs8vzb6YRPm7oMdWpmPs" Patch="JEVM2BCSxz7LH0sP8i63uA" Enabled="true" />
+          <Fragment Id="Uv52zbXD9XEPLb5TQ1aNzb" Patch="OgoaIE5Kr5NOcNY1nAG92G" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <PlatformDependency Id="QiZZ9nraCCHN3yxhAH1rbB" Location="System.Windows.Forms" />
+</Document>

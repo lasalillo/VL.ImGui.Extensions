@@ -880,10 +880,12 @@
                   <ControlPoint Id="VaZRncH5H9FNa5QD27NnCd" Bounds="167,866,6,0" />
                   <ControlPoint Id="UKAoKl0pv8rOm6qJDgtCUe" Bounds="174,1099,6,0" />
                   <Node Bounds="173,1065,57,19" Id="Cie2zeY9FjfQbiY9WbpsSx">
-                    <p:NodeReference LastCategoryFullName="System.Windows.Forms.Clipboard" LastDependency="System.Windows.Forms.dll">
+                    <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="Clipboard" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
                       <Choice Kind="OperationCallFlag" Name="SetData" />
-                      <CategoryReference Kind="AssemblyCategory" Name="Clipboard" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="LkB7OD9pVb9LhdThrhtG7i" Name="Format" Kind="InputPin" />
                     <Pin Id="QlrRp3NWxnUPjSnYfK7Lbw" Name="Data" Kind="InputPin" />
@@ -976,12 +978,8 @@
                   <ControlPoint Id="UbF59QSZLMcLdMiXHa0vyP" Bounds="370,861,6,0" />
                   <ControlPoint Id="N0CR5U1DvMmPzlfzyOzM8T" Bounds="510,1281,6,0" />
                   <Node Bounds="395,907,58,19" Id="DMkYlTpzEmzMK31e2FV9Tf">
-                    <p:NodeReference LastCategoryFullName="System.Windows.Forms.Clipboard" LastDependency="System.Windows.Forms.dll">
+                    <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="AssemblyCategory" Name="System" />
-                      <CategoryReference Kind="AssemblyCategory" Name="Windows" />
-                      <CategoryReference Kind="AssemblyCategory" Name="Forms" />
-                      <CategoryReference Kind="AssemblyCategory" Name="Clipboard" />
                       <Choice Kind="OperationCallFlag" Name="GetText" />
                       <PinReference Kind="InputPin" Name="Format" />
                     </p:NodeReference>
@@ -1289,10 +1287,12 @@
                     <ControlPoint Id="KlNgolzGu6pNrtiLeODnVQ" Bounds="165,937,6,0" />
                     <ControlPoint Id="R0OCW4z5jDbPCOW2Dv14bB" Bounds="172,1170,6,0" />
                     <Node Bounds="171,1136,57,19" Id="LBzK70kQyjMO0l5VuRVgJt">
-                      <p:NodeReference LastCategoryFullName="System.Windows.Forms.Clipboard" LastDependency="System.Windows.Forms.dll">
+                      <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <CategoryReference Kind="ClassType" Name="Clipboard" NeedsToBeDirectParent="true">
+                          <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                        </CategoryReference>
                         <Choice Kind="OperationCallFlag" Name="SetData" />
-                        <CategoryReference Kind="AssemblyCategory" Name="Clipboard" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="Aj6yTSaGckxOUSe9vCJoQu" Name="Format" Kind="InputPin" />
                       <Pin Id="OyB64aBM61XLHYRu2ZLmSS" Name="Data" Kind="InputPin" />
@@ -1375,12 +1375,8 @@
                     <ControlPoint Id="PSgmoFGS6htPGZwDiibu6B" Bounds="376,938,6,0" />
                     <ControlPoint Id="LJOOJjUV9HqPT2NnPyaFTF" Bounds="514,1321,6,0" />
                     <Node Bounds="401,984,58,19" Id="K7yIsdspMRjQHuRVBTLViv">
-                      <p:NodeReference LastCategoryFullName="System.Windows.Forms.Clipboard" LastDependency="System.Windows.Forms.dll">
+                      <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <CategoryReference Kind="AssemblyCategory" Name="System" />
-                        <CategoryReference Kind="AssemblyCategory" Name="Windows" />
-                        <CategoryReference Kind="AssemblyCategory" Name="Forms" />
-                        <CategoryReference Kind="AssemblyCategory" Name="Clipboard" />
                         <Choice Kind="OperationCallFlag" Name="GetText" />
                         <PinReference Kind="InputPin" Name="Format" />
                       </p:NodeReference>
@@ -4055,12 +4051,12 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="226,806,81,19" Id="RX3NSTqIufHLea9EK8Pr1p">
-                  <p:NodeReference LastCategoryFullName="System.String" LastDependency="mscorlib.dll" OverloadStrategy="AllPinsThatAreNotCommon">
+                  <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl" OverloadStrategy="AllPinsThatAreNotCommon">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="IsNullOrEmpty" />
                     <PinReference Kind="InputPin" Name="Value" />
                   </p:NodeReference>
-                  <Pin Id="QwBLkuGMwXvOWJ4XYmUO9L" Name="Value" Kind="InputPin" />
+                  <Pin Id="Gs2nQWsKmCAPUCjP9zbHUn" Name="Input" Kind="InputPin" />
                   <Pin Id="QAth04PkNHSPWnfB4n4tTq" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="226,876,188,175" Id="BDbJCc66HYNLmyJwuXJk5H">
@@ -4211,7 +4207,6 @@
               <Link Id="ADh6b45iZChNPEzXwmmSZj" Ids="JuCHkn9hEgNLJUaNhxbVSK,LBdgn8wwHmzNbK0E7UIsXm" />
               <Link Id="LmH2JeNBxmCLPgY5yctq2E" Ids="JuCHkn9hEgNLJUaNhxbVSK,SZ9Ex8ogClRNekHkwlzx99" />
               <Link Id="MLaIT2wUoJZNDTwaJH9KxE" Ids="I3ebMJxjejCMoD8DvW20GO,D7ZT3imAvZXODwFbTeNM90" />
-              <Link Id="PywlHexIAIJNCRlDyOLVKi" Ids="Lxn6gmwdcvZPpDP5sL1PTP,QwBLkuGMwXvOWJ4XYmUO9L" />
               <Link Id="MqCM8hnucD4L5tRDuhkHUP" Ids="DL8k8g8JZ7aMKcZc3iQO19,N7MEMDd5s9rQCnvw2cjyhO" />
               <Link Id="Dv98Iq8YahkPgPhCJfgOxI" Ids="JWJOOlfbgHXLZIahSYjKjo,PY1xqQEH8VzM4FdiZins1L" />
               <Link Id="GCTHS48ieRDNRz1ln3GJ9f" Ids="QAth04PkNHSPWnfB4n4tTq,SnCBgetY38POW1y6SLPrjH" />
@@ -4221,6 +4216,7 @@
               <Link Id="IFIlUU97Nx4Le02OYjMeq1" Ids="OyjjtVN8SgoMgCwn6QPwcH,BXQdtqIr0T0Pm8SJkkDb0m" />
               <Link Id="PtaTWyY3ZzFMv4DThz8vwm" Ids="TflQGFtsGswO8Mgf7kV9la,JzivAcXaCfcLq0e2SYPKpy" />
               <Link Id="AQWQdWnlOaDPbd7fMPH4ej" Ids="P3BUdmNBRPeO1Vf053G7lJ,GRcAJ0t2TZVMfG6C3aReC2" />
+              <Link Id="FbuT2ctPBB1Nd1v9p6tUZc" Ids="Lxn6gmwdcvZPpDP5sL1PTP,Gs2nQWsKmCAPUCjP9zbHUn" />
             </Patch>
           </Node>
           <!--
@@ -7431,10 +7427,12 @@
                       <ControlPoint Id="IYJLYBSYrgiM0v19sS6Pla" Bounds="224,494,6,0" />
                       <ControlPoint Id="DPgqiNFHGJHPKHIKYJFkPw" Bounds="225,649,6,0" />
                       <Node Bounds="224,615,57,19" Id="RLMRfXZRfBnPefPhFnmtFg">
-                        <p:NodeReference LastCategoryFullName="System.Windows.Forms.Clipboard" LastDependency="System.Windows.Forms.dll">
+                        <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="ClassType" Name="Clipboard" NeedsToBeDirectParent="true">
+                            <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                          </CategoryReference>
                           <Choice Kind="OperationCallFlag" Name="SetData" />
-                          <CategoryReference Kind="AssemblyCategory" Name="Clipboard" NeedsToBeDirectParent="true" />
                         </p:NodeReference>
                         <Pin Id="VidLmbbhBEAMqSlBDHlt1n" Name="Format" Kind="InputPin" />
                         <Pin Id="FHDxcI62RjeOBJwCNgRwQG" Name="Data" Kind="InputPin" />
@@ -7644,12 +7642,8 @@
                         <Pin Id="D296qdGrq80NlzGpFouBLm" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="617,555,58,19" Id="Vl458PVa2yuNjown3SslGn">
-                        <p:NodeReference LastCategoryFullName="System.Windows.Forms.Clipboard" LastDependency="System.Windows.Forms.dll">
+                        <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <CategoryReference Kind="AssemblyCategory" Name="System" />
-                          <CategoryReference Kind="AssemblyCategory" Name="Windows" />
-                          <CategoryReference Kind="AssemblyCategory" Name="Forms" />
-                          <CategoryReference Kind="AssemblyCategory" Name="Clipboard" />
                           <Choice Kind="OperationCallFlag" Name="GetText" />
                           <PinReference Kind="InputPin" Name="Format" />
                         </p:NodeReference>
@@ -7981,10 +7975,12 @@
                         <Pin Id="QGbhKIlJc07M2divrLm9Th" Name="Output" Kind="OutputPin" IsHidden="true" />
                         <Pin Id="AXUEs6R4sGaOdysZhB43O8" Name="Result" Kind="OutputPin" />
                       </Node>
-                      <Node Bounds="601,715,110,26" Id="BvNieyUaX2rMZeUwdD4qOL">
-                        <p:NodeReference LastCategoryFullName="System.Collections.IList" LastDependency="mscorlib.dll">
+                      <Node Bounds="601,715,110,19" Id="BvNieyUaX2rMZeUwdD4qOL">
+                        <p:NodeReference LastCategoryFullName="Main.IList (NonGeneric Mutable)" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <CategoryReference Kind="AssemblyCategory" Name="IList" />
+                          <CategoryReference Kind="MutableInterfaceType" Name="IList (NonGeneric Mutable)" NeedsToBeDirectParent="true">
+                            <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                          </CategoryReference>
                           <Choice Kind="OperationCallFlag" Name="GetItem" />
                         </p:NodeReference>
                         <Pin Id="JDgfjklR0kzM3E0q3tZATz" Name="Input" Kind="StateInputPin" />
@@ -8183,10 +8179,12 @@
                         <Pin Id="B2jGJr6y3jCN1lMtvIGVe5" Name="Apply" Kind="InputPin" />
                         <Pin Id="CN2dAOuR4mYOSl8iJP1IFZ" Name="Output" Kind="StateOutputPin" />
                       </Node>
-                      <Node Bounds="300,770,110,26" Id="VWoSfatnVgZLlabtqPHT6r">
-                        <p:NodeReference LastCategoryFullName="System.Collections.IList" LastDependency="mscorlib.dll">
+                      <Node Bounds="300,770,110,19" Id="VWoSfatnVgZLlabtqPHT6r">
+                        <p:NodeReference LastCategoryFullName="Main.IList (NonGeneric Mutable)" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <CategoryReference Kind="AssemblyCategory" Name="IList" />
+                          <CategoryReference Kind="MutableInterfaceType" Name="IList (NonGeneric Mutable)" NeedsToBeDirectParent="true">
+                            <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                          </CategoryReference>
                           <Choice Kind="OperationCallFlag" Name="GetItem" />
                         </p:NodeReference>
                         <Pin Id="UKqYNjZeKfkMLFKyqrocXX" Name="Input" Kind="StateInputPin" />
@@ -8261,10 +8259,12 @@
                         <Pin Id="QdITMqWaFJuQQnWYG9LiIY" Name="Result" Kind="OutputPin" />
                         <Pin Id="OAlMD6R3egyO1f5ylC3nbZ" Name="Success" Kind="OutputPin" />
                       </Node>
-                      <Node Bounds="943,708,110,26" Id="IUhD8Me3ebiOAIAoXNgNs7">
-                        <p:NodeReference LastCategoryFullName="System.Collections.IList" LastDependency="mscorlib.dll">
+                      <Node Bounds="943,708,110,19" Id="IUhD8Me3ebiOAIAoXNgNs7">
+                        <p:NodeReference LastCategoryFullName="Main.IList (NonGeneric Mutable)" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <CategoryReference Kind="AssemblyCategory" Name="IList" />
+                          <CategoryReference Kind="MutableInterfaceType" Name="IList (NonGeneric Mutable)" NeedsToBeDirectParent="true">
+                            <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                          </CategoryReference>
                           <Choice Kind="OperationCallFlag" Name="RemoveAt" />
                         </p:NodeReference>
                         <Pin Id="PHQGfDsJqb5MbmIeoB024n" Name="Input" Kind="StateInputPin" />
@@ -8391,10 +8391,12 @@
                             <Pin Id="H3peFNEaXQCQbzaCBTnFPv" Name="Index" Kind="InputPin" />
                           </Patch>
                           <Patch Id="D1MOg46tQ5CPvGgKZ26YDG" Name="Dispose" ManuallySortedPins="true" />
-                          <Node Bounds="1322,702,110,26" Id="EZIEa6eq9StOAf1ZEcygIk">
-                            <p:NodeReference LastCategoryFullName="System.Collections.IList" LastDependency="mscorlib.dll">
+                          <Node Bounds="1322,702,110,19" Id="EZIEa6eq9StOAf1ZEcygIk">
+                            <p:NodeReference LastCategoryFullName="Main.IList (NonGeneric Mutable)" LastDependency="VL.CoreLib.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                              <CategoryReference Kind="AssemblyCategory" Name="IList" />
+                              <CategoryReference Kind="MutableInterfaceType" Name="IList (NonGeneric Mutable)" NeedsToBeDirectParent="true">
+                                <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                              </CategoryReference>
                               <Choice Kind="OperationCallFlag" Name="GetItem" />
                             </p:NodeReference>
                             <Pin Id="TJCp8FDPdFMN9R0i39ZSAC" Name="Input" Kind="StateInputPin" />
@@ -8596,10 +8598,12 @@
                             <Pin Id="MqbhrfvwIFcMCQiTXVsDxY" Name="Index" Kind="InputPin" />
                           </Patch>
                           <Patch Id="QqCosN7LygNL2tTwTCEJfx" Name="Dispose" ManuallySortedPins="true" />
-                          <Node Bounds="1672,694,110,26" Id="LuGhQkQaDhQNUwpjuPBdQR">
-                            <p:NodeReference LastCategoryFullName="System.Collections.IList" LastDependency="mscorlib.dll">
+                          <Node Bounds="1672,694,110,19" Id="LuGhQkQaDhQNUwpjuPBdQR">
+                            <p:NodeReference LastCategoryFullName="Main.IList (NonGeneric Mutable)" LastDependency="VL.CoreLib.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                              <CategoryReference Kind="AssemblyCategory" Name="IList" />
+                              <CategoryReference Kind="MutableInterfaceType" Name="IList (NonGeneric Mutable)" NeedsToBeDirectParent="true">
+                                <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                              </CategoryReference>
                               <Choice Kind="OperationCallFlag" Name="GetItem" />
                             </p:NodeReference>
                             <Pin Id="Kqj6GikQUhAN2UMh8hSo6h" Name="Input" Kind="StateInputPin" />
@@ -15212,10 +15216,12 @@
                   <ControlPoint Id="HInTtEqsbJtMJ4XCQbL3o6" Bounds="170,683,6,0" />
                   <ControlPoint Id="AcUOJMnMMmNLlkP3KhFTyv" Bounds="177,916,6,0" />
                   <Node Bounds="176,882,57,19" Id="INxu3n0lUUrNlAU3GU5ElY">
-                    <p:NodeReference LastCategoryFullName="System.Windows.Forms.Clipboard" LastDependency="System.Windows.Forms.dll">
+                    <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="Clipboard" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
                       <Choice Kind="OperationCallFlag" Name="SetData" />
-                      <CategoryReference Kind="AssemblyCategory" Name="Clipboard" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="B0OKCnRhgdZNa9GrToXA2X" Name="Format" Kind="InputPin" />
                     <Pin Id="NNFCRU02d35QCF19AEkI42" Name="Data" Kind="InputPin" />
@@ -15404,10 +15410,12 @@
                   <ControlPoint Id="OeZ0M62oFmnOvzcK4gZ31M" Bounds="170,683,6,0" />
                   <ControlPoint Id="Laa8conv4SOQbTZkBQyhoS" Bounds="179,778,6,0" />
                   <Node Bounds="176,735,57,19" Id="HA1pkWix6MjO9QDygJLelQ">
-                    <p:NodeReference LastCategoryFullName="System.Windows.Forms.Clipboard" LastDependency="System.Windows.Forms.dll">
+                    <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="Clipboard" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
                       <Choice Kind="OperationCallFlag" Name="SetData" />
-                      <CategoryReference Kind="AssemblyCategory" Name="Clipboard" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="QyCBnjkvtcjMWM3T9kpe1X" Name="Format" Kind="InputPin" />
                     <Pin Id="GjGvo7hJJZnLFMx17zl80g" Name="Data" Kind="InputPin" />
@@ -15481,7 +15489,7 @@
                   <Choice Kind="TypeFlag" Name="Vector2" />
                 </p:TypeAnnotation>
               </Pad>
-              <ControlPoint Id="HEFqPK9EpScLnWbB8fF3ay" Bounds="212,634" />
+              <ControlPoint Id="HEFqPK9EpScLnWbB8fF3ay" Bounds="205,639" />
             </Canvas>
             <ProcessDefinition Id="PkjHreAJ9Q1NtMZxehHoQ2">
               <Fragment Id="FDf8kULlDdqMuiHEU3zX6m" Patch="HQhDyWhk9AdNURwY9cmzjy" Enabled="true" />
@@ -32246,9 +32254,9 @@
                 <Pin Id="FhHVVQEOzQKMk1drqeDhWq" Name="Render Time" Kind="OutputPin" />
               </Node>
               <Node Bounds="475,779,51,26" Id="VIdATrbEWUrPIo73DomAqT">
-                <p:NodeReference LastCategoryFullName="System.Windows.Forms.Form" LastDependency="System.Windows.Forms.dll">
+                <p:NodeReference LastCategoryFullName="Main.Form" LastDependency="Externals.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Form" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="Form" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationCallFlag" Name="SetText" />
                 </p:NodeReference>
                 <Pin Id="EhML3T2dhiuMY9VnhpYUgs" Name="Input" Kind="StateInputPin" />
@@ -32305,7 +32313,7 @@
                 <Pin Id="CyceifPaq1MPjPNGzWOirY" Name="Bounds" Kind="OutputPin" />
               </Node>
               <Node Bounds="345,783,67,19" Id="C3YtlpdKg8YLQDmg0aMlLK">
-                <p:NodeReference LastCategoryFullName="System.Windows.Forms.Form" LastDependency="System.Windows.Forms.dll">
+                <p:NodeReference LastCategoryFullName="Main.Form" LastDependency="Externals.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ActiveForm" />
                 </p:NodeReference>
@@ -32406,10 +32414,12 @@
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="475,1030,43,26" Id="NgstsoU4QhEOpjkunHIE6A">
-                <p:NodeReference LastCategoryFullName="System.Windows.Forms.Control" LastDependency="System.Windows.Forms.dll">
+              <Node Bounds="475,1030,43,19" Id="NgstsoU4QhEOpjkunHIE6A">
+                <p:NodeReference LastCategoryFullName="Main.Control" LastDependency="Externals.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <FullNameCategoryReference ID="System.Windows.Forms.Control" />
+                  <CategoryReference Kind="ClassType" Name="Control" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
                   <Choice Kind="OperationCallFlag" Name="Width" />
                 </p:NodeReference>
                 <Pin Id="OZ5wJMxht9IL3bg9EWtYQL" Name="Input" Kind="StateInputPin" />
@@ -32418,21 +32428,21 @@
               </Node>
               <ControlPoint Id="AJ6AQ21oILmOEdui1YNiFA" Bounds="515,1100" />
               <ControlPoint Id="Ul7Y0VH1HUuOLgMViD500N" Bounds="537,511" />
-              <Node Bounds="476,1232,43,26" Id="TNW8LVxqac4QawxjhGc6wo">
-                <p:NodeReference LastCategoryFullName="System.Windows.Forms.Control" LastDependency="System.Windows.Forms.dll">
+              <Node Bounds="476,1232,43,19" Id="TNW8LVxqac4QawxjhGc6wo">
+                <p:NodeReference LastCategoryFullName="Main.Control" LastDependency="Externals.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <FullNameCategoryReference ID="System.Windows.Forms.Control" />
                   <Choice Kind="OperationCallFlag" Name="Hide" />
                 </p:NodeReference>
                 <Pin Id="UWuhMAPGZjkNvmWv9aSHyf" Name="Input" Kind="StateInputPin" />
                 <Pin Id="DVhn1wnGz7tM0e2hIFZ1DJ" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="E38S6sA20lsL1BNO3qWbeM" Name="Apply" Kind="InputPin" />
               </Node>
-              <Node Bounds="476,1176,43,26" Id="ANalq04kpPjPpJIBNt9eUg">
-                <p:NodeReference LastCategoryFullName="System.Windows.Forms.Control" LastDependency="System.Windows.Forms.dll">
+              <Node Bounds="476,1176,43,19" Id="ANalq04kpPjPpJIBNt9eUg">
+                <p:NodeReference LastCategoryFullName="Main.Control" LastDependency="Externals.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Forms" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Control" />
+                  <CategoryReference Kind="ClassType" Name="Control" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
                   <Choice Kind="OperationCallFlag" Name="Show" />
                 </p:NodeReference>
                 <Pin Id="R8gtzfjG8IFM24WXZIkD9x" Name="Input" Kind="StateInputPin" />
@@ -34794,14 +34804,12 @@
     <Patch Id="MeCs37BSM2jLU84uirlYJ1" Name="Update" />
   </Patch>
   <NugetDependency Id="Fz6axuE89zVOcXmGwHDL5A" Location="VL.ImGui" Version="2024.6.5-0001-g60ef6fbffd" />
-  <PlatformDependency Id="GE6bB6xCDXlNNSsuQ9IKbR" Location="mscorlib" />
-  <PlatformDependency Id="TK3qAIgzVz0LGMpgBMfU7H" Location="System.Windows.Forms" />
   <NugetDependency Id="RXHFSJBiLBFOUBi35DDxPO" Location="VL.ImGui.Skia" Version="2024.6.5-0001-g60ef6fbffd" />
-  <PlatformDependency Id="Jr0J7YFNkjUNjsT7nAD5Yt" Location="C:/Program Files/vvvv/vvvv_gamma_6.0-0203-gf9bb287561/packs/VL.ImGui/lib/net8.0/VL.ImGui.dll" />
   <NugetDependency Id="B5TTozCwIiuQA8VyZ37nnt" Location="VL.Skia" Version="2024.6.5-0001-g60ef6fbffd" />
   <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.5-0001-g60ef6fbffd" />
   <NugetDependency Id="PlRhbh0BCYQNt1FHbWAAo7" Location="VL.IO.MouseKeyGlobal" Version="5.2.1" />
   <NugetDependency Id="AZph3pRFRUrLk7r7gF08sl" Location="VL.WinFormsUtils" Version="1.0.9" />
   <NugetDependency Id="LVmiPr9eRTjMBsJUxIy0gW" Location="VL.Interpolator" Version="1.2.1" />
   <NugetDependency Id="C6JY7Y9Zl5ZLkzYw07eA7C" Location="VL.HDE" Version="2024.6.5-0001-g60ef6fbffd" />
+  <DocumentDependency Id="PSIQsblD2npP0oUZzmuDnj" Location="./Externals.vl" />
 </Document>
