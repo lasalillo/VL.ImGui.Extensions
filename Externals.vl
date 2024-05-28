@@ -8,7 +8,7 @@
     ************************ IList (NonGeneric Mutable) ************************
 
 -->
-      <Node Name="IList (NonGeneric Mutable)" Bounds="216,229" Id="Vq8CpcidKZaLvvdmR2QQei">
+      <Node Name="IList (NonGeneric Mutable)" Bounds="205,229" Id="Vq8CpcidKZaLvvdmR2QQei">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -26,7 +26,7 @@
     ************************ Form ************************
 
 -->
-      <Node Name="Form" Bounds="216,271" Id="RW0IygJ0jmbM9KNn5yipkF">
+      <Node Name="Form" Bounds="205,269" Id="RW0IygJ0jmbM9KNn5yipkF">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -44,7 +44,7 @@
     ************************ Control ************************
 
 -->
-      <Node Name="Control" Bounds="216,313" Id="Ru8wwrC74KYND6REaX58li">
+      <Node Name="Control" Bounds="205,309" Id="Ru8wwrC74KYND6REaX58li">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -59,10 +59,46 @@
       </Node>
       <!--
 
+    ************************ SKRectI ************************
+
+-->
+      <Node Name="SKRectI" Bounds="205,389" Id="OltQqifNgtUP2vhwMDA4aw">
+        <p:NodeReference>
+          <Choice Kind="ForwardDefinition" Name="Forward" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <p:TypeAnnotation LastCategoryFullName="SkiaSharp" LastDependency="SkiaSharp.dll">
+          <Choice Kind="TypeFlag" Name="SKRectI" />
+        </p:TypeAnnotation>
+        <Patch Id="OubarjmEaiDMpO0TNykkjL">
+          <Canvas Id="FHccvxY8OPoPYNCDkEIYgW" BordersChecked="false" CanvasType="Group" />
+          <ProcessDefinition Id="EQ624GHIiaAPWi1S3es8T4" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ SKImageInfo ************************
+
+-->
+      <Node Name="SKImageInfo" Bounds="205,429" Id="G8T09A1RbDdMDRFi0KkeYP">
+        <p:NodeReference>
+          <Choice Kind="ForwardDefinition" Name="Forward" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <p:TypeAnnotation LastCategoryFullName="SkiaSharp" LastDependency="SkiaSharp.dll">
+          <Choice Kind="TypeFlag" Name="SKImageInfo" />
+        </p:TypeAnnotation>
+        <Patch Id="KIykP6TT5FdMxk5qzqK2wT">
+          <Canvas Id="U4XciGgvR83MpXtnTa8XaU" BordersChecked="false" CanvasType="Group" />
+          <ProcessDefinition Id="IfsuTzqkONEQGxH7wemmKs" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
     ************************ Clipboard ************************
 
 -->
-      <Node Name="Clipboard" Bounds="217,354" Id="Nb74nVJolFVLr4XE3O6YXk">
+      <Node Name="Clipboard" Bounds="203,350" Id="TJJRkubMrrjMIlppJ8p6nm">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -70,9 +106,9 @@
         <p:TypeAnnotation LastCategoryFullName="System.Windows.Forms" LastDependency="System.Windows.Forms.dll">
           <Choice Kind="TypeFlag" Name="Clipboard" />
         </p:TypeAnnotation>
-        <Patch Id="CBDD9Agd4GXLybytrwSFJg">
-          <Canvas Id="POhOo26db9fNhFRCw0P01K" BordersChecked="false" CanvasType="Group" />
-          <ProcessDefinition Id="Fvecs6CNVrQLujH2wvOArU" IsHidden="true" />
+        <Patch Id="MS1KzDBqSL2PCoIq0XhJ6z">
+          <Canvas Id="JWA4jYXHZMENzAroWmAT1c" BordersChecked="false" CanvasType="Group" />
+          <ProcessDefinition Id="A1WLrDfLrI3MMhAY8ELu9i" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
@@ -97,5 +133,6 @@
       </Patch>
     </Node>
   </Patch>
-  <PlatformDependency Id="QiZZ9nraCCHN3yxhAH1rbB" Location="System.Windows.Forms" />
+  <NugetDependency Id="HGiFTqb2Gl8NICmUzwBytT" Location="SkiaSharp" Version="2.88.6" />
+  <PlatformDependency Id="EHcmLr7FkofQUTpLVDmDlS" Location="System.Windows.Forms" />
 </Document>

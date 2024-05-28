@@ -978,8 +978,11 @@
                   <ControlPoint Id="UbF59QSZLMcLdMiXHa0vyP" Bounds="370,861,6,0" />
                   <ControlPoint Id="N0CR5U1DvMmPzlfzyOzM8T" Bounds="510,1281,6,0" />
                   <Node Bounds="395,907,58,19" Id="DMkYlTpzEmzMK31e2FV9Tf">
-                    <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
+                    <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl" OverloadStrategy="AllPinsThatAreNotCommon">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="Category" Name="Clipboard" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
                       <Choice Kind="OperationCallFlag" Name="GetText" />
                       <PinReference Kind="InputPin" Name="Format" />
                     </p:NodeReference>
@@ -1375,8 +1378,11 @@
                     <ControlPoint Id="PSgmoFGS6htPGZwDiibu6B" Bounds="376,938,6,0" />
                     <ControlPoint Id="LJOOJjUV9HqPT2NnPyaFTF" Bounds="514,1321,6,0" />
                     <Node Bounds="401,984,58,19" Id="K7yIsdspMRjQHuRVBTLViv">
-                      <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
+                      <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl" OverloadStrategy="AllPinsThatAreNotCommon">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <CategoryReference Kind="Category" Name="Clipboard" NeedsToBeDirectParent="true">
+                          <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                        </CategoryReference>
                         <Choice Kind="OperationCallFlag" Name="GetText" />
                         <PinReference Kind="InputPin" Name="Format" />
                       </p:NodeReference>
@@ -7642,8 +7648,11 @@
                         <Pin Id="D296qdGrq80NlzGpFouBLm" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="617,555,58,19" Id="Vl458PVa2yuNjown3SslGn">
-                        <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
+                        <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl" OverloadStrategy="AllPinsThatAreNotCommon">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="Category" Name="Clipboard" NeedsToBeDirectParent="true">
+                            <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                          </CategoryReference>
                           <Choice Kind="OperationCallFlag" Name="GetText" />
                           <PinReference Kind="InputPin" Name="Format" />
                         </p:NodeReference>
@@ -15215,18 +15224,6 @@
                 <Patch Id="S9Qur24FKcFNrdCvaEkU52" ManuallySortedPins="true">
                   <ControlPoint Id="HInTtEqsbJtMJ4XCQbL3o6" Bounds="170,683,6,0" />
                   <ControlPoint Id="AcUOJMnMMmNLlkP3KhFTyv" Bounds="177,916,6,0" />
-                  <Node Bounds="176,882,57,19" Id="INxu3n0lUUrNlAU3GU5ElY">
-                    <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="ClassType" Name="Clipboard" NeedsToBeDirectParent="true">
-                        <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
-                      </CategoryReference>
-                      <Choice Kind="OperationCallFlag" Name="SetData" />
-                    </p:NodeReference>
-                    <Pin Id="B0OKCnRhgdZNa9GrToXA2X" Name="Format" Kind="InputPin" />
-                    <Pin Id="NNFCRU02d35QCF19AEkI42" Name="Data" Kind="InputPin" />
-                    <Pin Id="Hlht0ieS41CLW2Zrc47DOP" Name="Apply" Kind="InputPin" />
-                  </Node>
                   <Pad Id="DNfBZvvuBHsNfL3txKiQ6X" Comment="Format" Bounds="178,866,41,15" ShowValueBox="true" isIOBox="true" Value="Text">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
@@ -15287,6 +15284,17 @@
                     </p:NodeReference>
                     <Pin Id="Sb9gIumtueSLSDcznZpMVW" Name="Input" Kind="StateInputPin" />
                     <Pin Id="A8t8q7bjBKkOIGPpFADfIQ" Name="Result" Kind="OutputPin" />
+                  </Node>
+                  <Node Bounds="176,882,51,19" Id="HkCULEubwqZL2jyMRPepaX">
+                    <p:NodeReference LastCategoryFullName="Main.Clipboard" LastDependency="Externals.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="Clipboard" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="OperationCallFlag" Name="SetData" />
+                    </p:NodeReference>
+                    <Pin Id="T2tUXQjXhCRMy4FArA0ui3" Name="Format" Kind="InputPin" />
+                    <Pin Id="OiWRIJwtYQUNGUlqHKnJVY" Name="Data" Kind="InputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -15350,10 +15358,8 @@
             </ProcessDefinition>
             <Link Id="PoIzqAvQgaSMK0yJ9RC8vl" Ids="B0SlFhzcCmhL0glCQBDL2W,HInTtEqsbJtMJ4XCQbL3o6" IsHidden="true" />
             <Link Id="GB5GhUgVT1VLpyyt95AS3I" Ids="AcUOJMnMMmNLlkP3KhFTyv,VM3PjdGNx1UPRr2Rg7Xofo" IsHidden="true" />
-            <Link Id="OkK8G0Jevo1OYVsfIHAvoz" Ids="DNfBZvvuBHsNfL3txKiQ6X,B0OKCnRhgdZNa9GrToXA2X" />
             <Link Id="F4NK2dAjI3LMnh3qj6Uh17" Ids="OKiJOkgwMlcPSz37OvLjuq,OPMWacuzr3DPETW6WMtRIi" IsHidden="true" />
             <Link Id="GMgt3NQSij1MeczTb01rMp" Ids="RhAui21SVOLPKNCIPIDZb0,BAnEPB5BN1cMoagyPjN7FP" />
-            <Link Id="JCzIVMw4HJCPksZ4dUbtYr" Ids="ViQpqdIzU8oPY0GX0aAcf6,NNFCRU02d35QCF19AEkI42" />
             <Link Id="N51E2uH20EGOCgI2HtgIZx" Ids="NFLId3yk7IHNxH2bAaE0Eu,LLcYiff0zCQPYxmWURUayf" />
             <Link Id="RBfk68KXYhBOSbSloNHD9T" Ids="BlW92gvzkN9OTykeWb7fWI,AkICDCOXscgLklhrcIOsBH" IsHidden="true" />
             <Link Id="OvzPJsAK3WvPjy9yM1kGL7" Ids="OPMWacuzr3DPETW6WMtRIi,E9zSblKpz1wQVOOVgz3nsG" />
@@ -15383,6 +15389,8 @@
             </Patch>
             <Link Id="MZwNkArzhhoQEbxGhlv71t" Ids="K9cdRAjbwvRM760TBCoSO9,J0DztB5BonJMmo2PzU2ij5" />
             <Link Id="Bpp0FIpGYqbNHPV6jkPKxF" Ids="S4xZ0tyh7BsN6SgJu7iZnP,TrYqLErVYnqLGgLKUT1J28" />
+            <Link Id="JGS2BdECQ6yLE3spDrjT2R" Ids="DNfBZvvuBHsNfL3txKiQ6X,T2tUXQjXhCRMy4FArA0ui3" />
+            <Link Id="A1HEe5imgSdPMoWrgMjHno" Ids="ViQpqdIzU8oPY0GX0aAcf6,OiWRIJwtYQUNGUlqHKnJVY" />
           </Patch>
         </Node>
         <!--
@@ -34811,5 +34819,5 @@
   <NugetDependency Id="AZph3pRFRUrLk7r7gF08sl" Location="VL.WinFormsUtils" Version="1.0.9" />
   <NugetDependency Id="LVmiPr9eRTjMBsJUxIy0gW" Location="VL.Interpolator" Version="1.2.1" />
   <NugetDependency Id="C6JY7Y9Zl5ZLkzYw07eA7C" Location="VL.HDE" Version="2024.6.5-0001-g60ef6fbffd" />
-  <DocumentDependency Id="PSIQsblD2npP0oUZzmuDnj" Location="./Externals.vl" />
+  <DocumentDependency Id="PSIQsblD2npP0oUZzmuDnj" Location="./Externals.vl" IsForward="true" />
 </Document>
