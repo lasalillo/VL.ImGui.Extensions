@@ -22154,7 +22154,7 @@
                 <Pin Id="VyZ89imIonUQI56k9M9Esp" Name="Prevent Close Option" Kind="InputPin" />
                 <Pin Id="OY5HvnBhAP3ORmMk234HUT" Name="Output" Kind="OutputPin" />
               </Node>
-              <Pad Id="HDhOFA5zV4xOM5LMHS9HBw" Comment="Closing" Bounds="562,975,35,35" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="HDhOFA5zV4xOM5LMHS9HBw" Comment="Closing" Bounds="562,967,35,35" ShowValueBox="true" isIOBox="true" />
               <Pad Id="JFuuqgtm7uUNJtNQdtZdej" Comment="Text" Bounds="596,862,111,15" ShowValueBox="true" isIOBox="true" Value="Are you sure?">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
@@ -22287,7 +22287,7 @@
               </Node>
               <ControlPoint Id="AJ6AQ21oILmOEdui1YNiFA" Bounds="515,1100" />
               <ControlPoint Id="Ul7Y0VH1HUuOLgMViD500N" Bounds="537,511" />
-              <Node Bounds="476,1232,43,26" Id="TNW8LVxqac4QawxjhGc6wo">
+              <Node Bounds="475,1232,43,26" Id="TNW8LVxqac4QawxjhGc6wo">
                 <p:NodeReference LastCategoryFullName="Main.Control" LastDependency="Externals.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Hide" />
@@ -22296,7 +22296,7 @@
                 <Pin Id="DVhn1wnGz7tM0e2hIFZ1DJ" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="E38S6sA20lsL1BNO3qWbeM" Name="Apply" Kind="InputPin" />
               </Node>
-              <Node Bounds="476,1176,43,26" Id="ANalq04kpPjPpJIBNt9eUg">
+              <Node Bounds="475,1176,43,26" Id="ANalq04kpPjPpJIBNt9eUg">
                 <p:NodeReference LastCategoryFullName="Main.Control" LastDependency="Externals.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="Control" NeedsToBeDirectParent="true">
@@ -22308,7 +22308,7 @@
                 <Pin Id="AERsM8UzzuuLPlxGLaOLBt" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="PA3PizULvpSQTTtlPnWaoE" Name="Apply" Kind="InputPin" />
               </Node>
-              <Node Bounds="514,1145,56,19" Id="PbdacSiUHo0OYQhyZTUCb6">
+              <Node Bounds="513,1145,56,19" Id="PbdacSiUHo0OYQhyZTUCb6">
                 <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="TogEdge" />
@@ -22331,6 +22331,7 @@
                 <Pin Id="CqQQbny3CxaLUmc4LC5Rba" Name="Input" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="HHfetdv77wEQUhCMxNPeyF" Bounds="755,607" />
+              <ControlPoint Id="ANK6yFUxc2oO0kQ8s8q2Q2" Bounds="519,1003" />
             </Canvas>
             <ProcessDefinition Id="RTMVqeFT97OQH2fKmG5qPq">
               <Fragment Id="LqHAYPkvBy8LzXdsccjVEs" Patch="GOLhAb8rxMXOItOdyJPcrA" Enabled="true" />
@@ -22387,6 +22388,7 @@
               <Pin Id="T1fJkTrNdJ3NreDgA1mIHJ" Name="ShowEditor" Kind="InputPin" DefaultValue="True" Visibility="Optional" />
               <Pin Id="If2ze947qGkLHNG25FlZvy" Name="ActiveForm" Kind="OutputPin" />
               <Pin Id="Gd48DjjBKGjPPCL5iE0zHz" Name="Width" Kind="OutputPin" />
+              <Pin Id="Eem0sY9KK0MO2fjvi2FSKW" Name="Closing" Kind="OutputPin" Visibility="Optional" />
               <Pin Id="G8Zel7tL6Y9NWWo3P0jAP0" Name="ClientBounds" Kind="OutputPin" />
             </Patch>
             <Link Id="RtqUDkMgKlvNh1JORnEF8W" Ids="CyceifPaq1MPjPNGzWOirY,O9eDlpGf0KHP2IWLKkIVRI" />
@@ -22395,6 +22397,8 @@
             <Link Id="O6F4RNnuEbPPXtKoL2lPYU" Ids="CqQQbny3CxaLUmc4LC5Rba,EhML3T2dhiuMY9VnhpYUgs" />
             <Link Id="GK3gXD0Nja4MGVpFUU2nux" Ids="HHfetdv77wEQUhCMxNPeyF,KCi69sjEahUQVqGPHyMbN5" />
             <Link Id="Qvv4SYpLgIZP4QsoAcmJ1v" Ids="FH3LXzTVBDfL0ZbcQBKoL9,HHfetdv77wEQUhCMxNPeyF" IsHidden="true" />
+            <Link Id="AuHKV9R5wwEPbagSj6FYKr" Ids="C4nSKne7rgxNUCCCOJTWmZ,ANK6yFUxc2oO0kQ8s8q2Q2" />
+            <Link Id="K1TI85l0BXeM7zdPNzp1pQ" Ids="ANK6yFUxc2oO0kQ8s8q2Q2,Eem0sY9KK0MO2fjvi2FSKW" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -23024,7 +23028,7 @@
   <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.7-0003-gda7bfe6f68" />
   <NugetDependency Id="PlRhbh0BCYQNt1FHbWAAo7" Location="VL.IO.MouseKeyGlobal" Version="5.2.1" />
   <NugetDependency Id="AZph3pRFRUrLk7r7gF08sl" Location="VL.WinFormsUtils" Version="1.0.9" />
-  <NugetDependency Id="LVmiPr9eRTjMBsJUxIy0gW" Location="VL.Interpolator" Version="1.2.1" />
+  <NugetDependency Id="LVmiPr9eRTjMBsJUxIy0gW" Location="VL.Interpolator" Version="1.2.3" />
   <NugetDependency Id="C6JY7Y9Zl5ZLkzYw07eA7C" Location="VL.HDE" Version="2024.6.7-0003-gda7bfe6f68" />
   <DocumentDependency Id="PSIQsblD2npP0oUZzmuDnj" Location="./Externals.vl" IsForward="true" />
 </Document>
