@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JEwyAjfznDAPaHc1OdOYhC" LanguageVersion="2024.6.7-0003-gda7bfe6f68" Version="0.128">
-  <NugetDependency Id="GjFSpG02r4COE2SgCBIS4s" Location="VL.CoreLib" Version="2024.6.7-0003-gda7bfe6f68" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JEwyAjfznDAPaHc1OdOYhC" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
+  <NugetDependency Id="GjFSpG02r4COE2SgCBIS4s" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
   <Patch Id="B7PZCIliR9CPuYnVtOqRyi">
     <Canvas Id="SR4jdXukqpSLr3dcuSmEve" DefaultCategory="ImGui.Extensions" CanvasType="FullCategory">
       <Canvas Id="RaPtm9tRjEdMZ3iAGaaRF6" Name="Editors" Position="199,364">
@@ -15543,11 +15543,11 @@
                         <Pin Id="TPVfm4keIYNNPFotMRHbGn" Name="Keep" Kind="OutputPin" />
                       </Patch>
                       <Patch Id="N5uKXQauRZDLGFxUVRfbVH" Name="Dispose" ManuallySortedPins="true" />
-                      <Node Bounds="383,648,95,26" Id="HtjMhS7p5pOMfmhJhipee6">
+                      <Node Bounds="383,648,95,19" Id="HtjMhS7p5pOMfmhJhipee6">
                         <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject.ObjectGraphNode" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="ObjectGraphNode" />
-                          <Choice Kind="OperationCallFlag" Name="Deconstruct" />
+                          <Choice Kind="OperationCallFlag" Name="Split" />
                         </p:NodeReference>
                         <Pin Id="T2OMjbnaCqYNThegGiBeZD" Name="Input" Kind="StateInputPin" />
                         <Pin Id="EXcaAFWeFWRPZc1G7H7a8E" Name="Output" Kind="StateOutputPin" />
@@ -15835,11 +15835,11 @@
                     <Pin Id="CQSnzAXu62PPUcA9fCuVtd" Name="Keep" Kind="OutputPin" />
                   </Patch>
                   <Patch Id="CL16nNM7srgObxbRF1mfEz" Name="Dispose" ManuallySortedPins="true" />
-                  <Node Bounds="344,610,95,26" Id="VIqUhRaWeoOOpkozVLXpeR">
+                  <Node Bounds="344,610,95,19" Id="VIqUhRaWeoOOpkozVLXpeR">
                     <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject.ObjectGraphNode" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="ObjectGraphNode" />
-                      <Choice Kind="OperationCallFlag" Name="Deconstruct" />
+                      <Choice Kind="OperationCallFlag" Name="Split" />
                     </p:NodeReference>
                     <Pin Id="UvdJbi4Q1GAOszDeAhx82p" Name="Input" Kind="StateInputPin" />
                     <Pin Id="DAODPm2US9ALDLRfdrpOci" Name="Output" Kind="StateOutputPin" />
@@ -15994,11 +15994,11 @@
                     <Pin Id="IawNHXfQcAFOYH07LYnzKw" Name="Keep" Kind="OutputPin" />
                   </Patch>
                   <Patch Id="DvaHeI707BJMcW5t7kRAkS" Name="Dispose" ManuallySortedPins="true" />
-                  <Node Bounds="500,1157,95,26" Id="Jc6tgZSlVCYNEbsBAPeTQU">
+                  <Node Bounds="500,1157,95,19" Id="Jc6tgZSlVCYNEbsBAPeTQU">
                     <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject.ObjectGraphNode" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="ObjectGraphNode" />
-                      <Choice Kind="OperationCallFlag" Name="Deconstruct" />
+                      <Choice Kind="OperationCallFlag" Name="Split" />
                     </p:NodeReference>
                     <Pin Id="KtDjYxcHdxRPbULlj0t79Q" Name="Input" Kind="StateInputPin" />
                     <Pin Id="M9G6NFs19bUOR77EIVLb10" Name="Output" Kind="StateOutputPin" />
@@ -17140,11 +17140,11 @@
                             <Pin Id="H7o6KJlzir7PivDDziVdTA" Name="Keep" Kind="OutputPin" />
                           </Patch>
                           <Patch Id="MpS1R0YjVqdLClgUZONGKx" Name="Dispose" ManuallySortedPins="true" />
-                          <Node Bounds="325,1105,85,26" Id="FnN0NSk8zlmO4Cxi9hJgam">
+                          <Node Bounds="325,1105,85,19" Id="FnN0NSk8zlmO4Cxi9hJgam">
                             <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject.ObjectGraphNode" LastDependency="VL.CoreLib.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="ClassType" Name="ObjectGraphNode" />
-                              <Choice Kind="OperationCallFlag" Name="Deconstruct" />
+                              <Choice Kind="OperationCallFlag" Name="Split" />
                             </p:NodeReference>
                             <Pin Id="OHt7dM6L807QE84mpIBInl" Name="Input" Kind="StateInputPin" />
                             <Pin Id="DGq2AH6pOOtNt0R8M7Iuzm" Name="Output" Kind="StateOutputPin" />
@@ -17563,11 +17563,11 @@
                     <Pin Id="SC2PMSxDG93QINTVUy72pE" Name="Keep" Kind="OutputPin" />
                   </Patch>
                   <Patch Id="U10NKATSedqNEM3fPpYMVp" Name="Dispose" ManuallySortedPins="true" />
-                  <Node Bounds="304,473,85,26" Id="C3ajuh3js3ONV4CHeLkXvN">
+                  <Node Bounds="304,473,85,19" Id="C3ajuh3js3ONV4CHeLkXvN">
                     <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject.ObjectGraphNode" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="ObjectGraphNode" />
-                      <Choice Kind="OperationCallFlag" Name="Deconstruct" />
+                      <Choice Kind="OperationCallFlag" Name="Split" />
                     </p:NodeReference>
                     <Pin Id="AksezFiaZKGLlHzaUPAAwB" Name="Input" Kind="StateInputPin" />
                     <Pin Id="G0T9pTxEWGyMG1NSlGfHUd" Name="Output" Kind="StateOutputPin" />
@@ -18111,11 +18111,11 @@
                         <Pin Id="Tsje77fK1erMLESmkF2NKT" Name="Keep" Kind="OutputPin" />
                       </Patch>
                       <Patch Id="LFc8FOChWSDLUhNyHWwnqn" Name="Dispose" ManuallySortedPins="true" />
-                      <Node Bounds="383,648,95,26" Id="KB6vgc3iVGfM4vxgsH3kN6">
+                      <Node Bounds="383,648,95,19" Id="KB6vgc3iVGfM4vxgsH3kN6">
                         <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject.ObjectGraphNode" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="ObjectGraphNode" />
-                          <Choice Kind="OperationCallFlag" Name="Deconstruct" />
+                          <Choice Kind="OperationCallFlag" Name="Split" />
                         </p:NodeReference>
                         <Pin Id="TQjflFBWndnNYHezmuNgJu" Name="Input" Kind="StateInputPin" />
                         <Pin Id="RPt30YufPKwMwdxfsIZRF1" Name="Output" Kind="StateOutputPin" />
@@ -23022,13 +23022,13 @@
     <Patch Id="EdZgB5qIL8PNt5xJygvacn" Name="Create" />
     <Patch Id="MeCs37BSM2jLU84uirlYJ1" Name="Update" />
   </Patch>
-  <NugetDependency Id="Fz6axuE89zVOcXmGwHDL5A" Location="VL.ImGui" Version="2024.6.7-0003-gda7bfe6f68" />
-  <NugetDependency Id="RXHFSJBiLBFOUBi35DDxPO" Location="VL.ImGui.Skia" Version="2024.6.7-0003-gda7bfe6f68" />
-  <NugetDependency Id="B5TTozCwIiuQA8VyZ37nnt" Location="VL.Skia" Version="2024.6.7-0003-gda7bfe6f68" />
-  <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.7-0003-gda7bfe6f68" />
-  <NugetDependency Id="PlRhbh0BCYQNt1FHbWAAo7" Location="VL.IO.MouseKeyGlobal" Version="5.2.1" />
-  <NugetDependency Id="AZph3pRFRUrLk7r7gF08sl" Location="VL.WinFormsUtils" Version="1.0.9" />
-  <NugetDependency Id="LVmiPr9eRTjMBsJUxIy0gW" Location="VL.Interpolator" Version="1.2.3" />
-  <NugetDependency Id="C6JY7Y9Zl5ZLkzYw07eA7C" Location="VL.HDE" Version="2024.6.7-0003-gda7bfe6f68" />
+  <NugetDependency Id="Fz6axuE89zVOcXmGwHDL5A" Location="VL.ImGui" Version="2024.6.7-0181-gdf16f593e1" />
+  <NugetDependency Id="RXHFSJBiLBFOUBi35DDxPO" Location="VL.ImGui.Skia" Version="2024.6.7-0181-gdf16f593e1" />
+  <NugetDependency Id="B5TTozCwIiuQA8VyZ37nnt" Location="VL.Skia" Version="2024.6.7-0181-gdf16f593e1" />
+  <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.7-0181-gdf16f593e1" />
+  <NugetDependency Id="PlRhbh0BCYQNt1FHbWAAo7" Location="VL.IO.MouseKeyGlobal" Version="5.3.2" />
+  <NugetDependency Id="AZph3pRFRUrLk7r7gF08sl" Location="VL.WinFormsUtils" Version="1.0.11" />
+  <NugetDependency Id="LVmiPr9eRTjMBsJUxIy0gW" Location="VL.Interpolator" Version="1.2.4" />
+  <NugetDependency Id="C6JY7Y9Zl5ZLkzYw07eA7C" Location="VL.HDE" Version="2024.6.7-0181-gdf16f593e1" />
   <DocumentDependency Id="PSIQsblD2npP0oUZzmuDnj" Location="./Externals.vl" IsForward="true" />
 </Document>
