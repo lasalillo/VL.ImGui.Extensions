@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JEwyAjfznDAPaHc1OdOYhC" LanguageVersion="2024.6.7-0220-ge2c006c41f" Version="0.128">
-  <NugetDependency Id="GjFSpG02r4COE2SgCBIS4s" Location="VL.CoreLib" Version="2024.6.7-0220-ge2c006c41f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JEwyAjfznDAPaHc1OdOYhC" LanguageVersion="2024.6.7-0254-g03f33351e2" Version="0.128">
+  <NugetDependency Id="GjFSpG02r4COE2SgCBIS4s" Location="VL.CoreLib" Version="2024.6.7-0254-g03f33351e2" />
   <Patch Id="B7PZCIliR9CPuYnVtOqRyi">
     <Canvas Id="SR4jdXukqpSLr3dcuSmEve" DefaultCategory="ImGui.Extensions" CanvasType="FullCategory">
       <Canvas Id="RaPtm9tRjEdMZ3iAGaaRF6" Name="Editors" Position="199,364">
@@ -23821,6 +23821,30 @@
                 <ControlPoint Id="G1faoqGzNvqNO7ZBmViiW1" Bounds="484,636" Alignment="Bottom" />
               </Node>
               <Pad Id="ExuhixtulzhL0aHeieJ2MV" Comment="Exists" Bounds="371,548,35,15" ShowValueBox="true" isIOBox="true" />
+              <Node Bounds="482,1286,62,26" Id="RBz4ByOdAywNK5PoaPf84b">
+                <p:NodeReference LastCategoryFullName="Main.Control" LastDependency="VL.ImGui.Extensions.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="DeviceDpi" />
+                </p:NodeReference>
+                <Pin Id="CXY1njJtp4GLZo6OVsunKt" Name="Input" Kind="StateInputPin" />
+                <Pin Id="T8cVx9gcX4gP94Y2GE4NEE" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="IkqHVApRW2WOmTnAa40TsF" Name="Device Dpi" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="539,1341,25,19" Id="TKzSLJsscLuLAVRdOMokyW">
+                <p:NodeReference LastCategoryFullName="Primitive.Float32" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="/ (Integer)" />
+                </p:NodeReference>
+                <Pin Id="OttXKasMuGCNf1dG04tgQu" Name="Input" Kind="StateInputPin" />
+                <Pin Id="CNVU4oNJRrOOgEKIUwzBVh" Name="Input 2" Kind="InputPin" />
+                <Pin Id="Dm7sM85piMQPE0T6ELpm6D" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="N8BnheGOhP1LEjAG29ACdY" Comment="" Bounds="561,1313,35,15" ShowValueBox="true" isIOBox="true" Value="96">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <ControlPoint Id="DSo796W9J2VMHXgOtJpB0r" Bounds="541,1389" />
             </Canvas>
             <ProcessDefinition Id="RTMVqeFT97OQH2fKmG5qPq">
               <Fragment Id="LqHAYPkvBy8LzXdsccjVEs" Patch="GOLhAb8rxMXOItOdyJPcrA" Enabled="true" />
@@ -23877,6 +23901,7 @@
               <Pin Id="If2ze947qGkLHNG25FlZvy" Name="ActiveForm" Kind="OutputPin" />
               <Pin Id="Gd48DjjBKGjPPCL5iE0zHz" Name="Width" Kind="OutputPin" />
               <Pin Id="Eem0sY9KK0MO2fjvi2FSKW" Name="Closing" Kind="OutputPin" Visibility="Optional" />
+              <Pin Id="DYV85gPZmeHMoXCDGhqYmI" Name="DIP Scaling Factor" Kind="OutputPin" Visibility="Optional" />
               <Pin Id="G8Zel7tL6Y9NWWo3P0jAP0" Name="ClientBounds" Kind="OutputPin" />
             </Patch>
             <Link Id="RtqUDkMgKlvNh1JORnEF8W" Ids="CyceifPaq1MPjPNGzWOirY,O9eDlpGf0KHP2IWLKkIVRI" />
@@ -23898,6 +23923,11 @@
             <Link Id="NXjR9V1fCcANQcVQAndRTl" Ids="FWXo7VR2SnOMRDtg91Zo0P,G1faoqGzNvqNO7ZBmViiW1" />
             <Link Id="BWL5MXHXTXOMIOD4AgGvCR" Ids="G1faoqGzNvqNO7ZBmViiW1,AjCeAjfPNxWP5ew8l0chF8" />
             <Link Id="CiVRlx8KJEXPD7MFoNHFtQ" Ids="UhTGfNsPavdNCH2v3zi2mO,ExuhixtulzhL0aHeieJ2MV" />
+            <Link Id="SzGzqBQzmedPibPugrX9aJ" Ids="DVhn1wnGz7tM0e2hIFZ1DJ,CXY1njJtp4GLZo6OVsunKt" />
+            <Link Id="OWUIlkGa02RPjUe9tscxTC" Ids="IkqHVApRW2WOmTnAa40TsF,OttXKasMuGCNf1dG04tgQu" />
+            <Link Id="BVLqpK87XYyMOdQD18Fb8Z" Ids="N8BnheGOhP1LEjAG29ACdY,CNVU4oNJRrOOgEKIUwzBVh" />
+            <Link Id="E5xC2JEL7hXLevHPixTg5o" Ids="Dm7sM85piMQPE0T6ELpm6D,DSo796W9J2VMHXgOtJpB0r" />
+            <Link Id="D8mPfUpm3NiPNliajqriYK" Ids="DSo796W9J2VMHXgOtJpB0r,DYV85gPZmeHMoXCDGhqYmI" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -24521,13 +24551,13 @@
     <Patch Id="EdZgB5qIL8PNt5xJygvacn" Name="Create" />
     <Patch Id="MeCs37BSM2jLU84uirlYJ1" Name="Update" />
   </Patch>
-  <NugetDependency Id="Fz6axuE89zVOcXmGwHDL5A" Location="VL.ImGui" Version="2024.6.7-0220-ge2c006c41f" />
-  <NugetDependency Id="RXHFSJBiLBFOUBi35DDxPO" Location="VL.ImGui.Skia" Version="2024.6.7-0220-ge2c006c41f" />
-  <NugetDependency Id="B5TTozCwIiuQA8VyZ37nnt" Location="VL.Skia" Version="2024.6.7-0220-ge2c006c41f" />
-  <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.7-0220-ge2c006c41f" />
+  <NugetDependency Id="Fz6axuE89zVOcXmGwHDL5A" Location="VL.ImGui" Version="2024.6.7-0254-g03f33351e2" />
+  <NugetDependency Id="RXHFSJBiLBFOUBi35DDxPO" Location="VL.ImGui.Skia" Version="2024.6.7-0254-g03f33351e2" />
+  <NugetDependency Id="B5TTozCwIiuQA8VyZ37nnt" Location="VL.Skia" Version="2024.6.7-0254-g03f33351e2" />
+  <NugetDependency Id="KTMLWctqMhhO31RUvbakpP" Location="VL.CoreLib.Windows" Version="2024.6.7-0254-g03f33351e2" />
   <NugetDependency Id="PlRhbh0BCYQNt1FHbWAAo7" Location="VL.IO.MouseKeyGlobal" Version="5.3.5" />
   <NugetDependency Id="AZph3pRFRUrLk7r7gF08sl" Location="VL.WinFormsUtils" Version="1.0.11" />
-  <NugetDependency Id="C6JY7Y9Zl5ZLkzYw07eA7C" Location="VL.HDE" Version="2024.6.7-0220-ge2c006c41f" />
+  <NugetDependency Id="C6JY7Y9Zl5ZLkzYw07eA7C" Location="VL.HDE" Version="2024.6.7-0254-g03f33351e2" />
   <DocumentDependency Id="PSIQsblD2npP0oUZzmuDnj" Location="./Externals.vl" IsForward="true" />
-  <NugetDependency Id="KG8fE61n0ZQPP3tAubELnK" Location="VL.Interpolator" Version="1.2.8" />
+  <NugetDependency Id="KG8fE61n0ZQPP3tAubELnK" Location="VL.Interpolator" Version="1.2.10" />
 </Document>
