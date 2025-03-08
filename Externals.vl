@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CK1dKOUYEzlLDC6wM2ViGY" LanguageVersion="2024.6.5-0025-g40e0ce060c" Version="0.128">
-  <NugetDependency Id="PUwUcX4gJnXLF35cxfhpMo" Location="VL.CoreLib" Version="2024.6.5-0025-g40e0ce060c" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CK1dKOUYEzlLDC6wM2ViGY" LanguageVersion="2024.6.7-0254-g03f33351e2" Version="0.128">
+  <NugetDependency Id="PUwUcX4gJnXLF35cxfhpMo" Location="VL.CoreLib" Version="2024.6.7-0254-g03f33351e2" />
   <Patch Id="GE9XEkoxRhVMQO391mU4Ub">
     <Canvas Id="I3WKvIlGnPmL4XNgx2J5SO" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -8,7 +8,7 @@
     ************************ IList (NonGeneric Mutable) ************************
 
 -->
-      <Node Name="IList (NonGeneric Mutable)" Bounds="205,229" Id="Vq8CpcidKZaLvvdmR2QQei">
+      <Node Name="IList (NonGeneric Mutable)" Bounds="216,229" Id="Vq8CpcidKZaLvvdmR2QQei">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -26,7 +26,7 @@
     ************************ Form ************************
 
 -->
-      <Node Name="Form" Bounds="205,269" Id="RW0IygJ0jmbM9KNn5yipkF">
+      <Node Name="Form" Bounds="216,268" Id="RW0IygJ0jmbM9KNn5yipkF">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -44,7 +44,7 @@
     ************************ Control ************************
 
 -->
-      <Node Name="Control" Bounds="205,309" Id="Ru8wwrC74KYND6REaX58li">
+      <Node Name="Control" Bounds="216,307" Id="Ru8wwrC74KYND6REaX58li">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -62,7 +62,7 @@
     ************************ SKRectI ************************
 
 -->
-      <Node Name="SKRectI" Bounds="205,389" Id="OltQqifNgtUP2vhwMDA4aw">
+      <Node Name="SKRectI" Bounds="216,385" Id="OltQqifNgtUP2vhwMDA4aw">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -80,7 +80,7 @@
     ************************ SKImageInfo ************************
 
 -->
-      <Node Name="SKImageInfo" Bounds="205,429" Id="G8T09A1RbDdMDRFi0KkeYP">
+      <Node Name="SKImageInfo" Bounds="216,424" Id="G8T09A1RbDdMDRFi0KkeYP">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -98,7 +98,7 @@
     ************************ Clipboard ************************
 
 -->
-      <Node Name="Clipboard" Bounds="203,350" Id="TJJRkubMrrjMIlppJ8p6nm">
+      <Node Name="Clipboard" Bounds="216,346" Id="TJJRkubMrrjMIlppJ8p6nm">
         <p:NodeReference>
           <Choice Kind="ForwardDefinition" Name="Forward" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -109,6 +109,24 @@
         <Patch Id="MS1KzDBqSL2PCoIq0XhJ6z">
           <Canvas Id="JWA4jYXHZMENzAroWmAT1c" BordersChecked="false" CanvasType="Group" />
           <ProcessDefinition Id="A1WLrDfLrI3MMhAY8ELu9i" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ DIPHelpers ************************
+
+-->
+      <Node Name="DIPHelpers" Bounds="216,463" Id="FK6VJiA4chSO1LOCN9m5xP">
+        <p:NodeReference>
+          <Choice Kind="ForwardDefinition" Name="Forward" />
+          <FullNameCategoryReference ID="Primitive" />
+        </p:NodeReference>
+        <p:TypeAnnotation LastCategoryFullName="VL.UI.Core" LastDependency="VL.UI.Core.dll">
+          <Choice Kind="TypeFlag" Name="DIPHelpers" />
+        </p:TypeAnnotation>
+        <Patch Id="O8YumejHdlkLb1NEIuLSXc">
+          <Canvas Id="PqYxGW9ccjvLBLF7hBB2Qm" CanvasType="Group" />
+          <ProcessDefinition Id="DLCeMWwblqlQQt2yoEWV9e" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
@@ -133,6 +151,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HGiFTqb2Gl8NICmUzwBytT" Location="SkiaSharp" Version="2.88.6" />
+  <NugetDependency Id="HGiFTqb2Gl8NICmUzwBytT" Location="SkiaSharp" Version="2.88.8" />
   <PlatformDependency Id="EHcmLr7FkofQUTpLVDmDlS" Location="System.Windows.Forms" />
 </Document>
