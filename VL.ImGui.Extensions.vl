@@ -4662,7 +4662,7 @@
                           <Node Bounds="979,2070,105,19" Id="RjHY7x2Lr9uOv7XevXrE8e">
                             <p:NodeReference LastCategoryFullName="ImGui.Extensions.Editors.CustomEditors" LastDependency="VL.ImGui.Extensions.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                              <Choice Kind="ProcessAppFlag" Name="SpreadMonitor" />
+                              <Choice Kind="ProcessAppFlag" Name="Spread_Edit" />
                             </p:NodeReference>
                             <Pin Id="Lpt2I7UBo9GLgIdXwhrD1U" Name="Node Context" Kind="InputPin" IsHidden="true" />
                             <Pin Id="Q3ATYcUDOkpNmUZeGzMDbt" Name="Context" Kind="InputPin" />
@@ -4758,7 +4758,7 @@
                               <Node Bounds="979,2419,105,19" Id="GXamJrba2j2P8w0WnyugaR">
                                 <p:NodeReference LastCategoryFullName="ImGui.Extensions.Editors.CustomEditors" LastDependency="VL.ImGui.Extensions.vl">
                                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                                  <Choice Kind="ProcessAppFlag" Name="SpreadMonitor" />
+                                  <Choice Kind="ProcessAppFlag" Name="Spread_Edit" />
                                 </p:NodeReference>
                                 <Pin Id="OWuAgfEvJNaOUHnwga7ZVF" Name="Node Context" Kind="InputPin" IsHidden="true" />
                                 <Pin Id="L5gMKxSTi9MM2eiJnrz868" Name="Context" Kind="InputPin" />
@@ -10612,7 +10612,7 @@
                         <Node Bounds="350,919,85,19" Id="N3yJQZ83FkRQC95pVScemQ">
                           <p:NodeReference LastCategoryFullName="ImGui.Extensions.Editors.CustomEditors" LastDependency="VL.ImGui.Extensions.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <Choice Kind="ProcessAppFlag" Name="SpreadMonitor" />
+                            <Choice Kind="ProcessAppFlag" Name="Spread_Edit" />
                           </p:NodeReference>
                           <Pin Id="RcfvNyqTF8oQKmhi5PVD6u" Name="Node Context" Kind="InputPin" IsHidden="true" />
                           <Pin Id="SEoA4KwDxUELy9OkDoDxWu" Name="Context" Kind="InputPin" />
@@ -10800,10 +10800,10 @@
           </Node>
           <!--
 
-    ************************ SpreadMonitor ************************
+    ************************ Spread_Edit ************************
 
 -->
-          <Node Name="SpreadMonitor" Bounds="472,278" Id="CFKkvRrQ48UPZfT0sOj9vB">
+          <Node Name="Spread_Edit" Bounds="472,278" Id="CFKkvRrQ48UPZfT0sOj9vB">
             <p:NodeReference>
               <Choice Kind="ContainerDefinition" />
             </p:NodeReference>
